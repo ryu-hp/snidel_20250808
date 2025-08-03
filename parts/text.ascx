@@ -59,7 +59,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       <aside class="lp-aside lp-aside--left">
         <div class="lp-aside__contents lp-aside__contents--left">
           <p class="lp-aside-left__text lp-aside-left__text--top">snidel</p>
-          <p class="lp-aside-left__text lp-aside-left__text--middle">snidel</p>
+          <p class="lp-aside-left__text lp-aside-left__text--middle"><img src="./img/text-style_up_pants.svg" alt="style up pants"></p>
           <p class="lp-aside-left__text lp-aside-left__text--bottom">履くだけでスタイルアップが叶う！</p>
         </div>
       </aside>
@@ -70,15 +70,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <img src="./img/image_01.jpg" alt="">
             </div>
             <div class="sec-01__top-content-text">
-              <p class="sec-01__top-content-text sec-01__top-content-text--top">2025</p>
+              <p class="sec-01__top-content-text--top">2025</p>
               <span></span>
-              <p class="sec-01__top-content-text sec-01__top-content-text--bottom">AUTUMN  COLLECTION</p>
+              <p class="sec-01__top-content-text--bottom">AUTUMN  COLLECTION</p>
             </div>
           </div>
           <div class="sec-01__middel-contents">
             <div class="sec-01__middel-contents-text">
               <p class="sec-01__middel-text sec-01__middel-text--top">snidel</p>
-              <p class="sec-01__middel-text sec-01__middel-text--middel">style up<br>pants</p>
+              <p class="sec-01__middel-text sec-01__middel-text--middel"><img src="./img/text-style_up_pants.svg" alt="style up pants"></p>
               <p class="sec-01__middel-text sec-01__middel-text--bottom">履くだけでスタイルアップが叶う！</p>
             </div>
             <div class="sec-01__middel-contents-image">
