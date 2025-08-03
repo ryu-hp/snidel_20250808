@@ -263,6 +263,10 @@ select::-ms-expand {
   display: none !important;
 }
 
+#Contents {
+  overflow: clip;
+}
+
 #SN250811denim {
   width: 100%;
   min-height: 100vh;
@@ -329,13 +333,7 @@ select::-ms-expand {
   text-orientation: mixed;
 }
 #SN250811denim .lp-aside--right {
-  width: 20rem;
-  background: #D1E0E6;
-  position: fixed;
   right: 0;
-  top: 0;
-  height: 100vh;
-  z-index: 100;
 }
 #SN250811denim .lp-aside--right .lp-aside__contents--right {
   display: -webkit-box;
