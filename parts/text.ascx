@@ -50,7 +50,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 
 <%-- ▽ LP編集エリア ▽ --%>
-<div class="(計測タグ) articleContainer" id="(計測タグ)">
+<div class="SN250811denim articleContainer" id="SN250811denim">
 
   <%-- contents --%>
 
