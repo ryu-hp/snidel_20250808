@@ -1,5 +1,599 @@
 @use "../global" as *;
-.sample {
-    color: $color-black;
-    font-size: clp(16);
+
+// メインコンテナ
+#SN250811denim {
+  width: 100%;
+  min-height: 100vh;
+  font-family: $base-font-family;
+}
+
+#SN250811denim {
+    // LPコンテンツ全体
+    .lp-contents {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+        background: $color-white;
+    }
+
+    // 左サイドバー
+    .lp-aside--left {
+        width: rem(200);
+        background: $color-theme;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 100;
+        
+        .lp-aside__contents--left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: rem(40) rem(20);
+        }
+        
+        .lp-aside-left__text {
+        color: $color-white;
+        text-align: center;
+        font-weight: $bold;
+        
+        &--top {
+            font-size: rem(24);
+            margin-bottom: rem(20);
+            text-transform: uppercase;
+        }
+        
+        &--middle {
+            font-size: rem(18);
+            margin-bottom: rem(30);
+            text-transform: uppercase;
+        }
+        
+        &--bottom {
+            font-size: rem(14);
+            line-height: 1.6;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+        }
+    }
+
+    // 右サイドバー
+    .lp-aside--right {
+        width: rem(200);
+        background: $color-bg_gray;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 100;
+        
+        .lp-aside__contents--right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: rem(40) rem(20);
+        gap: rem(40);
+        }
+        
+        .lp-aside-right__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        &-immage {
+            width: rem(60);
+            height: rem(60);
+            margin-bottom: rem(10);
+            
+            img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            }
+        }
+        
+        &-text {
+            font-size: rem(12);
+            font-weight: $bold;
+            color: $color-theme;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        }
+    }
+
+    // メインコンテンツ
+    .lp-main-content {
+        flex: 1;
+        margin-left: rem(200);
+        margin-right: rem(200);
+        padding: rem(60) rem(40);
+    }
+
+    // セクション01
+    .sec-01 {
+        margin-bottom: rem(80);
+        
+        &__top-contents {
+        display: flex;
+        align-items: center;
+        gap: rem(60);
+        margin-bottom: rem(80);
+        
+        .sec-01__top-content-image {
+            flex: 1;
+            
+            img {
+            width: 100%;
+            height: auto;
+            display: block;
+            }
+        }
+        
+        .sec-01__top-content-text {
+            flex: 1;
+            text-align: center;
+            
+            &--top {
+            font-size: rem(80);
+            font-weight: $bold;
+            color: $color-theme;
+            margin-bottom: rem(20);
+            }
+            
+            span {
+            display: block;
+            width: rem(100);
+            height: rem(2);
+            background: $color-theme;
+            margin: 0 auto rem(20);
+            }
+            
+            &--bottom {
+            font-size: rem(32);
+            font-weight: $bold;
+            color: $color-theme;
+            letter-spacing: rem(2);
+            }
+        }
+        }
+        
+        &__middel-contents {
+        display: flex;
+        align-items: center;
+        gap: rem(60);
+        
+        .sec-01__middel-contents-text {
+            flex: 1;
+            text-align: center;
+            
+            .sec-01__middel-text {
+            &--top {
+                font-size: rem(36);
+                font-weight: $bold;
+                color: $color-theme;
+                margin-bottom: rem(20);
+                text-transform: uppercase;
+            }
+            
+            &--middel {
+                font-size: rem(48);
+                font-weight: $bold;
+                color: $color-theme;
+                margin-bottom: rem(30);
+                text-transform: uppercase;
+                line-height: 1.2;
+            }
+            
+            &--bottom {
+                font-size: rem(16);
+                color: $color-main_gray;
+                line-height: 1.6;
+            }
+            }
+        }
+        
+        .sec-01__middel-contents-image {
+            flex: 1;
+            
+            img {
+            width: 100%;
+            height: auto;
+            display: block;
+            }
+        }
+        }
+    }
+
+    // セクション02
+    .sec-02 {
+        margin-bottom: rem(80);
+        text-align: center;
+        
+        &__description {
+        font-size: rem(18);
+        line-height: 1.8;
+        color: $color-main_gray;
+        margin-bottom: rem(60);
+        }
+        
+        &__line-up {
+        margin-bottom: rem(50);
+        
+        .common-box-text {
+            display: inline-block;
+            background: $color-theme;
+            color: $color-white;
+            font-size: rem(16);
+            font-weight: $bold;
+            padding: rem(15) rem(40);
+            text-transform: uppercase;
+        }
+        }
+        
+        &__images {
+        display: flex;
+        flex-direction: column;
+        gap: rem(40);
+        
+        &-item {
+            &--top {
+            margin-bottom: rem(30);
+            
+            .sec-02__images-item-image {
+                max-width: rem(400);
+                margin: 0 auto rem(20);
+                
+                img {
+                width: 100%;
+                height: auto;
+                display: block;
+                }
+            }
+            
+            .sec-02__images-item-text {
+                font-size: rem(16);
+                font-weight: $bold;
+                color: $color-theme;
+            }
+            }
+            
+            &--bottom {
+            display: flex;
+            justify-content: center;
+            gap: rem(40);
+            
+            .sec-02__images-item {
+                flex: 1;
+                max-width: rem(300);
+                
+                &-image {
+                margin-bottom: rem(20);
+                
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+                }
+                
+                &-text {
+                font-size: rem(14);
+                font-weight: $bold;
+                color: $color-theme;
+                line-height: 1.4;
+                }
+            }
+            }
+        }
+        }
+    }
+
+    // 共通タイトル
+    .common-title {
+        font-size: rem(48);
+        font-weight: $bold;
+        color: $color-theme;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.2;
+        margin-bottom: rem(60);
+    }
+
+    // セクション03
+    .sec-03 {
+        margin-bottom: rem(80);
+        
+        &__contents {
+        display: flex;
+        justify-content: space-between;
+        gap: rem(30);
+        margin-bottom: rem(60);
+        
+        .sec-03__item {
+            flex: 1;
+            text-align: center;
+            
+            .sec-03__size-01 {
+            margin-bottom: rem(20);
+            
+            .common-box-text {
+                background: $color-theme;
+                color: $color-white;
+                font-size: rem(12);
+                font-weight: $bold;
+                padding: rem(8) rem(20);
+                display: inline-block;
+            }
+            }
+            
+            .sec-03__images {
+            .swiper {
+                width: 100%;
+                height: rem(400);
+                
+                .swiper-slide {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                }
+            }
+            }
+        }
+        }
+        
+        &__bottom-contents {
+        display: flex;
+        gap: rem(40);
+        
+        .sec-03__bottom-content {
+            flex: 1;
+            text-align: center;
+            
+            &-text {
+            font-size: rem(14);
+            line-height: 1.6;
+            color: $color-main_gray;
+            margin-bottom: rem(20);
+            }
+            
+            &-image {
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            }
+        }
+        }
+    }
+
+    // セクション03-2
+    .sec-03-2 {
+        margin-bottom: rem(80);
+        text-align: center;
+        
+        img {
+        width: 100%;
+        max-width: rem(800);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        }
+    }
+
+    // セクション04
+    .sec-04 {
+        margin-bottom: rem(80);
+        
+        &__contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: rem(30);
+        margin-bottom: rem(60);
+        
+        .sec-04__item {
+            text-align: center;
+            
+            .sec-04__size-01 {
+            margin-bottom: rem(20);
+            
+            .common-box-text {
+                background: $color-theme;
+                color: $color-white;
+                font-size: rem(12);
+                font-weight: $bold;
+                padding: rem(8) rem(20);
+                display: inline-block;
+            }
+            }
+            
+            .sec-04__images {
+            .swiper {
+                width: 100%;
+                height: rem(400);
+                
+                .swiper-slide {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                }
+            }
+            }
+        }
+        }
+        
+        &__bottom-contents {
+        display: flex;
+        gap: rem(40);
+        
+        .sec-04__bottom-content {
+            flex: 1;
+            text-align: center;
+            
+            &-text {
+            font-size: rem(14);
+            line-height: 1.6;
+            color: $color-main_gray;
+            margin-bottom: rem(20);
+            
+            &--top, &--bottom {
+                margin-bottom: rem(15);
+            }
+            }
+            
+            &-image {
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            }
+        }
+        }
+    }
+
+    // セクション04-2
+    .sec-04-2 {
+        margin-bottom: rem(80);
+        text-align: center;
+        
+        img {
+        width: 100%;
+        max-width: rem(800);
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        }
+    }
+
+    // セクション05
+    .sec-05 {
+        margin-bottom: rem(80);
+        
+        &__contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: rem(30);
+        margin-bottom: rem(60);
+        
+        .sec-05__item {
+            text-align: center;
+            
+            .sec-05__size-01 {
+            margin-bottom: rem(20);
+            
+            .common-box-text {
+                background: $color-theme;
+                color: $color-white;
+                font-size: rem(12);
+                font-weight: $bold;
+                padding: rem(8) rem(20);
+                display: inline-block;
+            }
+            }
+            
+            .sec-05__images {
+            .swiper {
+                width: 100%;
+                height: rem(400);
+                
+                .swiper-slide {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                }
+            }
+            }
+        }
+        }
+        
+        &__bottom-contents {
+        display: flex;
+        gap: rem(40);
+        
+        .sec-05__bottom-content {
+            flex: 1;
+            text-align: center;
+            
+            &-text {
+            font-size: rem(14);
+            line-height: 1.6;
+            color: $color-main_gray;
+            margin-bottom: rem(20);
+            }
+            
+            &-image {
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            }
+        }
+        }
+    }
+
+    // セクション06
+    .sec-06 {
+        &__contents {
+        display: flex;
+        flex-direction: column;
+        gap: rem(60);
+        }
+        
+        &__content {
+        text-align: center;
+        
+        .sec-06__text {
+            font-size: rem(24);
+            font-weight: $bold;
+            color: $color-theme;
+            text-transform: uppercase;
+            margin-bottom: rem(30);
+        }
+        
+        .sec-06__images {
+            .swiper {
+            width: 100%;
+            
+            .swiper-slide {
+                .sec-06-item {
+                text-align: center;
+                
+                &__image {
+                    margin-bottom: rem(15);
+                    
+                    img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    }
+                }
+                
+                &__text {
+                    font-size: rem(12);
+                    color: $color-main_gray;
+                    background: $color-bg_gray;
+                    padding: rem(8) rem(12);
+                    display: inline-block;
+                }
+                }
+            }
+            }
+        }
+        }
+    }
 }

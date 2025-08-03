@@ -1,4 +1,5 @@
 @use "sass:math";
+@use "sass:map";
 
 //ブレイクポイント
 $breakpoints: (
@@ -7,20 +8,20 @@ $breakpoints: (
 );
 //メディアクエリー
 $mediaquerys: (
-  md: "screen and (max-width: #{map-get($breakpoints,'md')}px)",
-  lg: "screen and (max-width: #{map-get($breakpoints,'lg')}px)",
+  md: "screen and (max-width: #{map.get($breakpoints,'md')}px)",
+  lg: "screen and (max-width: #{map.get($breakpoints,'lg')}px)",
 );
 
 
 // @include mq(){}で書くとブレークポイントが反映される（初期値はmd）
 @mixin mq($mediaquery: md) {
-  @media #{map-get($mediaquerys, $mediaquery)} {
+  @media #{map.get($mediaquerys, $mediaquery)} {
     @content;
   }
 }
 // remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
 @function rem($pixels) {
-    @return math.div($pixels, 16) * 1rem;
+    @return math.div($pixels, 10) * 1rem;
 }
 @function strip-unit($number) {
     @if type-of($number) == "number" and not unitless($number) {
@@ -28,26 +29,13 @@ $mediaquerys: (
     }
     @return $number;
 }
-@function vw($window_width, $font_size) {
-    @return math.div($font_size, $window_width) * 100vw;
+@function vw($font_size) {
+    @return calc(#{$font_size} / 750 * 100vw);
 }
 
 
-// 画面幅の変数を定義
-$minWindow: 375;
-$maxWindow: 1210;
-
-@function clp($base_font) {
-  @return clamp(
-    $base_font * 0.625 * 0.1rem,
-    ($base_font * 0.625 * 0.1rem) + math.div($base_font * 0.625 * 0.15, $maxWindow - $minWindow) * (100vw - $minWindow * 1px),
-    $base_font * 0.625 * 0.115rem
-  );
-}
-
-
-$base-font-family:  "Noto Sans JP", sans-serif;
-$second-font-family: "Roboto Condensed", sans-serif ;
+$base-font-family: "YuGothic Medium", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "Yu Gothic", "游ゴシック", sans-serif;
+$second-font-family: "New Atten", sans-serif;
 $bold : 700;
 $normal : 400;
 $light : 300;
