@@ -28,7 +28,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <%-- ▽ 編集可能領域：コンテンツ ▽ --%>
 <!-- コンテンツ部分用CSS読み込みここから -->
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/snidel_template/css/style.css" />
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2025/0811/css/style.css" />
 
 <!-- add fonts -->
 
@@ -43,7 +43,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
     <span>＞</span>
     <a href="<%= Constants.PATH_ROOT %>page/topics/">TOPICS</a>
     <span>＞</span>
-    （企画のタイトルが入ります）
+    SNIDEL STYLE UP PANTS
   </p>
 </div>
 <!-- breadlist -->
@@ -88,7 +88,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 	})
 </script>
 
-<script src="<%= Constants.PATH_ROOT %>Page/feature/snidel_template/js/script.js"></script>
+<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/js/script.js"></script>
 <!-- コンテンツ部分用JS読み込みここまで -->
 <%-- △編集可能領域△ --%>
 
