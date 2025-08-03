@@ -87,7 +87,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <div class="sec-02">
-          <p class="sec-02__description commone-description">
+          <p class="sec-02__description common-description">
             計算されたシルエット、ボディラインに程良く寄り添う素材<br>
             履くだけでスタイルアップが叶い、自信が持てる<br>
             SNIDELデザイナーが本気で考えた<br>
@@ -146,6 +146,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <div class="swiper-slide">
                       <img src="./img/image_06-3.jpg" alt="STRETCH FLARE DENIM">
                     </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_06-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_06-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_06-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                   </div>
                 </div>
                 <!-- /Swiper -->
@@ -161,6 +170,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
+                    <div class="swiper-slide">
+                      <img src="./img/image_07-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_07-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_07-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                     <div class="swiper-slide">
                       <img src="./img/image_07-1.jpg" alt="STRETCH FLARE DENIM">
                     </div>
@@ -194,6 +212,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <div class="swiper-slide">
                       <img src="./img/image_08-3.jpg" alt="STRETCH FLARE DENIM">
                     </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_08-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_08-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_08-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                   </div>
                 </div>
                 <!-- /Swiper -->
@@ -209,7 +236,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <img src="./img/image_09.jpg" alt="裾に向かって美しく広がるフレアラインで美脚効果">
               </div>
             </div>
-            <div class="sec-03__bottom-content sec-03__bottom-content--top">
+            <div class="sec-03__bottom-content sec-03__bottom-content--middle">
               <p class="sec-03__bottom-content-text">
                 腰位置高く魅せる<br>ハイウエスト仕様
               </p>
@@ -217,7 +244,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <img src="./img/image_10.jpg" alt="腰位置高く魅せるハイウエスト仕様">
               </div>
             </div>
-            <div class="sec-03__bottom-content sec-03__bottom-content--top">
+            <div class="sec-03__bottom-content sec-03__bottom-content--bottom">
               <p class="sec-03__bottom-content-text">
                 バックポケットには<br>オリジナル刺繍を施し<br>ヒップ位置を高く見せる
               </p>
@@ -257,6 +284,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <div class="swiper-slide">
                       <img src="./img/image_13-3.jpg" alt="STRETCH FLARE DENIM">
                     </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_13-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_13-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_13-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                   </div>
                 </div>
                 <!-- /Swiper -->
@@ -272,6 +308,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
+                    <div class="swiper-slide">
+                      <img src="./img/image_14-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_14-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_14-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                     <div class="swiper-slide">
                       <img src="./img/image_14-1.jpg" alt="STRETCH FLARE DENIM">
                     </div>
@@ -305,6 +350,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <div class="swiper-slide">
                       <img src="./img/image_15-3.jpg" alt="STRETCH FLARE DENIM">
                     </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_15-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_15-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_15-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                   </div>
                 </div>
                 <!-- /Swiper -->
@@ -320,6 +374,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
+                    <div class="swiper-slide">
+                      <img src="./img/image_16-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_16-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_16-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                     <div class="swiper-slide">
                       <img src="./img/image_16-1.jpg" alt="STRETCH FLARE DENIM">
                     </div>
@@ -387,6 +450,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <div class="swiper-slide">
                       <img src="./img/image_20-3.jpg" alt="STRETCH STRAIGHT DENIM">
                     </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_20-1.jpg" alt="STRETCH STRAIGHT DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_20-2.jpg" alt="STRETCH STRAIGHT DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_20-3.jpg" alt="STRETCH STRAIGHT DENIM">
+                    </div>
                   </div>
                 </div>
                 <!-- /Swiper -->
@@ -402,6 +474,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
+                    <div class="swiper-slide">
+                      <img src="./img/image_21-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_21-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_21-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                     <div class="swiper-slide">
                       <img src="./img/image_21-1.jpg" alt="STRETCH FLARE DENIM">
                     </div>
@@ -435,6 +516,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <div class="swiper-slide">
                       <img src="./img/image_22-3.jpg" alt="STRETCH FLARE DENIM">
                     </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_22-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_22-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_22-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                   </div>
                 </div>
                 <!-- /Swiper -->
@@ -450,6 +540,15 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
+                    <div class="swiper-slide">
+                      <img src="./img/image_23-1.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_23-2.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/image_23-3.jpg" alt="STRETCH FLARE DENIM">
+                    </div>
                     <div class="swiper-slide">
                       <img src="./img/image_23-1.jpg" alt="STRETCH FLARE DENIM">
                     </div>

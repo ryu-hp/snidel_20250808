@@ -70,7 +70,7 @@
 		display: inline-block;
 		color: $color-black;
 		font-size: rem(28);
-		line-height: calc(79 / 28);
+		line-height: calc(32 / 28);
 		font-weight: $bold;
 		padding: rem(8) rem(40) rem(4);
 		text-transform: uppercase;
@@ -264,9 +264,13 @@
   
   .sec-01__middel-contents-text {
     flex: 1;
-    text-align: center;
     color: $color-black;
     margin-right: rem(-105);
+		width: calc(468 / 750 * 100%);
+		position: relative;
+		z-index: 1;
+		box-sizing: border-box;
+		padding-left: rem(32);
   }
   
   .sec-01__middel-text--top {
@@ -280,7 +284,7 @@
   
   .sec-01__middel-text--middel {
     margin-bottom: rem(54);
-    width: calc(436 / 750 * 100%);
+		width: 100%;
   }
   
   .sec-01__middel-text--bottom {
@@ -307,17 +311,18 @@
     
     .sec-02__description {
       margin-bottom: rem(150);
+			text-align: center;
     }
     
     .sec-02__line-up {
       text-align: center;
 			margin-bottom: rem(50);
     }
-    
-    
-    .sec-02__images {
+     
+    .sec-02__images-item {
       display: flex;
       flex-direction: column;
+			align-items: center;
       gap: rem(40);
     }
     
@@ -337,7 +342,6 @@
     
     .sec-02__images-item-text {
       font-size: rem(22);
-			text-align: center;
     }
     
     .sec-02__images-item--bottom {
@@ -354,66 +358,112 @@
     // セクション03
     .sec-03 {
       margin-bottom: rem(80);
+			border-top: 2px solid $color-black;
+			padding-top: rem(90);
     }
     
     .sec-03__contents {
       display: flex;
-      justify-content: space-between;
-      gap: rem(30);
-      margin-bottom: rem(60);
+			flex-direction: column;
+      gap: rem(100);
+      margin-bottom: rem(120);
     }
     
     .sec-03__item {
       flex: 1;
       text-align: center;
     }
+
     
     .sec-03__size-01 {
-      margin-bottom: rem(20);
+      margin-bottom: rem(30);
+			padding-left: rem(40);
+			text-align: left;
     }
     
-    .sec-03__size-01 .common-box-text {
-      background: $color-theme;
-      color: $color-white;
-      font-size: rem(12);
-      font-weight: $bold;
-      padding: rem(8) rem(20);
-      display: inline-block;
-    }
     
-    .sec-03__images .swiper {
-      width: 100%;
-      height: rem(400);
-    }
-    
+		.sec-03__images .swiper-slide {
+			width: calc(520 / 750 * 100%);
+		}
     .sec-03__images .swiper .swiper-slide img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-    
-    .sec-03__bottom-contents {
-      display: flex;
-      gap: rem(40);
-    }
+		.sec-03__bottom-contents {
+			margin-bottom: rem(150);
+		}
     
     .sec-03__bottom-content {
-      flex: 1;
-      text-align: center;
+      position: relative;
     }
     
     .sec-03__bottom-content-text {
-      font-size: rem(14);
-      line-height: 1.6;
-      color: $color-black;
-      margin-bottom: rem(20);
+      font-size: rem(24);
+			letter-spacing: 0.05em;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
     }
+		.sec-03__bottom-content--top .sec-03__bottom-content-text {
+			left: calc(75 / 750 * 100%);	
+		}
+		.sec-03__bottom-content--middle .sec-03__bottom-content-text {
+			left: calc(484 / 750 * 100%);	
+		}
+		.sec-03__bottom-content--bottom .sec-03__bottom-content-text {
+			left: calc(60 / 750 * 100%);	
+		}
+		.sec-03__bottom-content-text::after {
+			display: block;
+			content: "";
+			height: 2px;
+			background-color: $color-black;
+			position: absolute;
+		}
+		.sec-03__bottom-content-text--top::after {
+			width: calc (120 / 750 * 100%);
+			left: 100%;
+			bottom: 2%;
+		}
+		.sec-03__bottom-content-text--middle::after {
+			width: calc (140 / 750 * 100%);
+			right: 100%;
+			top: 15%;
+		}
+		.sec-03__bottom-content-text--bottom::after {
+			width: calc (170 / 750 * 100%);
+			left: 100%;
+			top: 50%;
+			transform: translateY(-50%);
+		}
     
     .sec-03__bottom-content-image img {
       width: 100%;
       height: auto;
       display: block;
     }
+		.sec-03__bottom-content--top .sec-03__bottom-content-image {
+			margin-left: auto;
+			width: calc(480 / 750 * 100%);
+		}
+		.sec-03__bottom-content--middle .sec-03__bottom-content-image {
+			margin-right: auto;
+			margin-left: rem(40);
+			width: calc(360 / 750 * 100%);
+		}
+		.sec-03__bottom-content--bottom .sec-03__bottom-content-image {
+			margin-left: auto;
+			margin-right: rem(40);
+			width: calc(360 / 750 * 100%);
+		}
+
+		.sec-03__bottom-content--top {
+			margin-bottom: rem(50);
+		}
+		.sec-03__bottom-content--bottom {
+			margin-bottom: rem(-95);
+		}
 
     // セクション03-2
     .sec-03-2 {

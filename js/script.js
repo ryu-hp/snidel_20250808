@@ -1,23 +1,16 @@
 // Swiper初期化
 document.addEventListener('DOMContentLoaded', function() {
   // セクション03のSwiper
-  const sec03Swipers = document.querySelectorAll('.sec03-1-swiper, .sec03-2-swiper');
+  const sec03Swipers = document.querySelectorAll('.sec03-1-swiper, .sec03-2-swiper , .sec03-3-swiper');
   sec03Swipers.forEach(function(element) {
     new Swiper(element, {
-      slidesPerView: 1,
-      spaceBetween: 10,
+      slidesPerView: 'auto',
+      spaceBetween: 20,
       loop: true,
+      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
       },
     });
   });
@@ -26,9 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const sec04Swipers = document.querySelectorAll('.sec04-1-swiper, .sec04-2-swiper, .sec04-3-swiper, .sec04-4-swiper');
   sec04Swipers.forEach(function(element) {
     new Swiper(element, {
-      slidesPerView: 1,
+      slidesPerView: 'auto',
       spaceBetween: 10,
       loop: true,
+      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -48,9 +42,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const sec05Swipers = document.querySelectorAll('.sec05-1-swiper, .sec05-2-swiper, .sec05-3-swiper, .sec05-4-swiper');
   sec05Swipers.forEach(function(element) {
     new Swiper(element, {
-      slidesPerView: 1,
+      slidesPerView: 'auto',
       spaceBetween: 10,
       loop: true,
+      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -73,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
+      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -96,6 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
+      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -119,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
+      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
