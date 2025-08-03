@@ -20,20 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
   sec04Swipers.forEach(function(element) {
     new Swiper(element, {
       slidesPerView: 'auto',
-      spaceBetween: 10,
+      spaceBetween: 20,
       loop: true,
       centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
       },
     });
   });
