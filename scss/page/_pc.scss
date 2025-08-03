@@ -16,34 +16,37 @@
         background: $color-white;
     }
 
-    // 左サイドバー
-    .lp-aside--left {
-        width: rem(200);
-        background: $color-theme;
-        position: fixed;
-        left: 0;
+    .lp-aside {
+        padding-top: rem(100);
+        padding-bottom: rem(100);
+        position: sticky;
         top: 0;
         height: 100vh;
         z-index: 100;
+        width: calc((100% - 750px ) / 2);
+        background: $color-bg_side;
+    }
+
+    // 左サイドバー
+    .lp-aside--left {
+        left: 0;
         
         .lp-aside__contents--left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        padding: rem(40) rem(20);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
         
         .lp-aside-left__text {
-        color: $color-white;
-        text-align: center;
-        font-weight: $bold;
+          font-weight: $bold;
         
         &--top {
-            font-size: rem(24);
-            margin-bottom: rem(20);
+            font-size: rem(34);
+            margin-bottom: rem(32);
+            line-height: 1;
             text-transform: uppercase;
+            font-family: $second-font-family;
         }
         
         &--middle {
@@ -64,7 +67,7 @@
     // 右サイドバー
     .lp-aside--right {
         width: rem(200);
-        background: $color-bg_gray;
+        background: $color-bg_side
         position: fixed;
         right: 0;
         top: 0;
@@ -111,9 +114,10 @@
     // メインコンテンツ
     .lp-main-content {
         flex: 1;
-        margin-left: rem(200);
-        margin-right: rem(200);
-        padding: rem(60) rem(40);
+        max-width: 750px;
+        width: 100%;
+        margin-right:auto;
+        margin-left:auto;
     }
 
     // セクション01
@@ -586,7 +590,7 @@
                 &__text {
                     font-size: rem(12);
                     color: $color-main_gray;
-                    background: $color-bg_gray;
+                    background: $color-bg_side
                     padding: rem(8) rem(12);
                     display: inline-block;
                 }
