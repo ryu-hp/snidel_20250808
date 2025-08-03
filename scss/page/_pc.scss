@@ -67,7 +67,7 @@
     // 右サイドバー
     .lp-aside--right {
         width: rem(200);
-        background: $color-bg_side
+        background: $color-bg_side;
         position: fixed;
         right: 0;
         top: 0;
@@ -590,7 +590,7 @@
                 &__text {
                     font-size: rem(12);
                     color: $color-main_gray;
-                    background: $color-bg_side
+                    background: $color-bg_side ;
                     padding: rem(8) rem(12);
                     display: inline-block;
                 }

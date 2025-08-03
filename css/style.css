@@ -277,14 +277,18 @@ select::-ms-expand {
   min-height: 100vh;
   background: #fff;
 }
-#SN250811denim .lp-aside--left {
-  width: 20rem;
-  background: #003566;
-  position: fixed;
-  left: 0;
+#SN250811denim .lp-aside {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: sticky;
   top: 0;
   height: 100vh;
   z-index: 100;
+  width: calc((100% - 750px) / 2);
+  background: #D1E0E6;
+}
+#SN250811denim .lp-aside--left {
+  left: 0;
 }
 #SN250811denim .lp-aside--left .lp-aside__contents--left {
   display: -webkit-box;
@@ -300,18 +304,16 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
-  padding: 4rem 2rem;
 }
 #SN250811denim .lp-aside--left .lp-aside-left__text {
-  color: #fff;
-  text-align: center;
   font-weight: 700;
 }
 #SN250811denim .lp-aside--left .lp-aside-left__text--top {
-  font-size: 2.4rem;
-  margin-bottom: 2rem;
+  font-size: 3.4rem;
+  margin-bottom: 3.2rem;
+  line-height: 1;
   text-transform: uppercase;
+  font-family: "New Atten", sans-serif;
 }
 #SN250811denim .lp-aside--left .lp-aside-left__text--middle {
   font-size: 1.8rem;
@@ -328,7 +330,7 @@ select::-ms-expand {
 }
 #SN250811denim .lp-aside--right {
   width: 20rem;
-  background: #F5F7F7;
+  background: #D1E0E6;
   position: fixed;
   right: 0;
   top: 0;
@@ -387,9 +389,10 @@ select::-ms-expand {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-left: 20rem;
-  margin-right: 20rem;
-  padding: 6rem 4rem;
+  max-width: 750px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 #SN250811denim .sec-01 {
   margin-bottom: 8rem;
@@ -808,7 +811,7 @@ select::-ms-expand {
 #SN250811denim .sec-06__content .sec-06__images .swiper .swiper-slide .sec-06-item__text {
   font-size: 1.2rem;
   color: #7E7C7C;
-  background: #F5F7F7;
+  background: #D1E0E6;
   padding: 0.8rem 1.2rem;
   display: inline-block;
 }
@@ -1253,7 +1256,7 @@ select::-ms-expand {
   #SN250811denim .sec-06__content .sec-06__images .swiper .swiper-slide .sec-06-item__text {
     font-size: calc(10 / 750 * 100vw);
     color: #7E7C7C;
-    background: #F5F7F7;
+    background: #D1E0E6;
     padding: calc(6 / 750 * 100vw) calc(10 / 750 * 100vw);
     display: inline-block;
   }
