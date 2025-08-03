@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/************** ▽ ALL ITEM CHECK ▽ **************/
+/* 企画に応じて変更してください。 */
+/*** pc ***/
+.articleContainer .btnArea_all {
+  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
+  font-size: 2.6rem;
+}
+
+.articleContainer .btnArea_all a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*** sp ***/
+@media screen and (max-width: 767px) {
+  .articleContainer .btnArea_all {
+    font-size: calc(31 *(100vw / 750));
+  }
+}
+/************** △ ALL ITEM CHECK △ **************/
+
+
+
+/* ===============================================### 
+SP用デザイン
+###=============================================== */
+@media screen and (max-width: 767px) {
+  .articleContainer {
+    margin: calc(80 *(100vw / 750)) 0 0;
+  }
+  
+}
+
+/* ===============================================### 
+PC用デザイン
+###=============================================== */
+@media screen and (min-width: 768px) {
+  .articleContainer {
+    margin: 8rem 0 0;
+  }
+  
+}
