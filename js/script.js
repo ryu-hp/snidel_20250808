@@ -54,45 +54,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // セクション06のSwiper
-  const sec06SfdSwiper = document.querySelector('.sec06-sfd-swiper');
-  if (sec06SfdSwiper) {
-    new Swiper(sec06SfdSwiper, {
+  const sec06Swipers = document.querySelectorAll('.sec06-sfd-swiper, .sec06-hwf-swiper, .sec06-hws-swiper');
+  sec06Swipers.forEach(function(element) {
+    new Swiper(element, {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
-      centeredSlides: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
       },
     });
-  }
-
-  const sec06HwfSwiper = document.querySelector('.sec06-hwf-swiper');
-  if (sec06HwfSwiper) {
-    new Swiper(sec06HwfSwiper, {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-    });
-  }
-
-  const sec06HwsSwiper = document.querySelector('.sec06-hws-swiper');
-  if (sec06HwsSwiper) {
-    new Swiper(sec06HwsSwiper, {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-    });
-  }
+  });
 });
