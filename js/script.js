@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   sec03Swipers.forEach(function(element) {
     new Swiper(element, {
       slidesPerView: 'auto',
-      spaceBetween: 20,
+      spaceBetween: 15,
       loop: true,
       centeredSlides: true,
       autoplay: {

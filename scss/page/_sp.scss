@@ -8,497 +8,307 @@
     font-family: $base-font-family;
   }
 
-  #SN250811denim {
-    // LPコンテンツ全体（スマホではサイドバーなし）
-    .lp-contents {
-      display: block;
-      width: 100%;
-      min-height: 100vh;
-      background: $color-white;
-    }
-  
-    // サイドバーを非表示
-    .lp-aside--left,
-    .lp-aside--right {
-      display: none;
-    }
-  
-    // メインコンテンツ
-    .lp-main-content {
-      margin: 0;
-      padding: vw(15);
-    }
-  
-    // セクション01
-    .sec-01 {
-      margin-bottom: vw(60);
-      
-      &__top-contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        margin-bottom: vw(60);
-        
-        .sec-01__top-content-image {
-          order: 2;
-          
-          img {
-            width: 100%;
-            height: auto;
-            display: block;
-          }
-        }
-        
-        .sec-01__top-content-text {
-          order: 1;
-          text-align: center;
-          
-          &--top {
-            font-size: vw(48);
-            font-weight: $bold;
-            color: $color-theme;
-            margin-bottom: vw(15);
-          }
-          
-          span {
-            display: block;
-            width: vw(60);
-            height: vw(2);
-            background: $color-theme;
-            margin: 0 auto vw(15);
-          }
-          
-          &--bottom {
-            font-size: vw(18);
-            font-weight: $bold;
-            color: $color-theme;
-            letter-spacing: vw(1);
-          }
-        }
-      }
-      
-      &__middel-contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        
-        .sec-01__middel-contents-text {
-          order: 1;
-          text-align: center;
-          
-          .sec-01__middel-text {
-            &--top {
-              font-size: vw(24);
-              font-weight: $bold;
-              color: $color-theme;
-              margin-bottom: vw(15);
-              text-transform: uppercase;
-            }
-            
-            &--middel {
-              font-size: vw(32);
-              font-weight: $bold;
-              color: $color-theme;
-              margin-bottom: vw(20);
-              text-transform: uppercase;
-              line-height: 1.2;
-            }
-            
-            &--bottom {
-              font-size: vw(14);
-              color: $color-main_gray;
-              line-height: 1.6;
-            }
-          }
-        }
-        
-        .sec-01__middel-contents-image {
-          order: 2;
-          
-          img {
-            width: 100%;
-            height: auto;
-            display: block;
-          }
-        }
-      }
-    }
-  
-    // セクション02
-    .sec-02 {
-      margin-bottom: vw(60);
-      text-align: center;
-      
-      &__description {
-        font-size: vw(14);
-        line-height: 1.8;
-        color: $color-main_gray;
-        margin-bottom: vw(40);
-      }
-      
-      &__line-up {
-        margin-bottom: vw(30);
-        
-        .common-box-text {
-          display: inline-block;
-          background: $color-theme;
-          color: $color-white;
-          font-size: vw(14);
-          font-weight: $bold;
-          padding: vw(12) vw(30);
-          text-transform: uppercase;
-        }
-      }
-      
-      &__images {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        
-        &-item {
-          &--top {
-            margin-bottom: vw(20);
-            
-            .sec-02__images-item-image {
-              margin-bottom: vw(15);
-              
-              img {
-                width: 100%;
-                height: auto;
-                display: block;
-              }
-            }
-            
-            .sec-02__images-item-text {
-              font-size: vw(14);
-              font-weight: $bold;
-              color: $color-theme;
-            }
-          }
-          
-          &--bottom {
-            display: flex;
-            flex-direction: column;
-            gap: vw(30);
-            
-            .sec-02__images-item {
-              &-image {
-                margin-bottom: vw(15);
-                
-                img {
-                  width: 100%;
-                  height: auto;
-                  display: block;
-                }
-              }
-              
-              &-text {
-                font-size: vw(14);
-                font-weight: $bold;
-                color: $color-theme;
-                line-height: 1.4;
-              }
-            }
-          }
-        }
-      }
-    }
-  
-    // 共通タイトル
-    .common-title {
-      font-size: vw(32);
-      font-weight: $bold;
-      color: $color-theme;
-      text-transform: uppercase;
-      text-align: center;
-      line-height: 1.2;
-      margin-bottom: vw(40);
-    }
-  
-    // セクション03
-    .sec-03 {
-      margin-bottom: vw(60);
-      
-      &__contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        margin-bottom: vw(40);
-        
-        .sec-03__item {
-          text-align: center;
-          
-          .sec-03__size-01 {
-            margin-bottom: vw(15);
-            
-            .common-box-text {
-              background: $color-theme;
-              color: $color-white;
-              font-size: vw(12);
-              font-weight: $bold;
-              padding: vw(8) vw(20);
-              display: inline-block;
-            }
-          }
-          
-          .sec-03__images {
-            .swiper {
-              width: 100%;
-              height: vw(300);
-              
-              .swiper-slide {
-                img {
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-                }
-              }
-            }
-          }
-        }
-      }
-      
-      &__bottom-contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        
-        .sec-03__bottom-content {
-          text-align: center;
-          
-          &-text {
-            font-size: vw(12);
-            line-height: 1.6;
-            color: $color-main_gray;
-            margin-bottom: vw(15);
-          }
-          
-          &-image {
-            img {
-              width: 100%;
-              height: auto;
-              display: block;
-            }
-          }
-        }
-      }
-    }
-  
-    // セクション03-2
-    .sec-03-2 {
-      margin-bottom: vw(60);
-      text-align: center;
-      
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-    }
-  
-    // セクション04
-    .sec-04 {
-      margin-bottom: vw(60);
-      
-      &__contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        margin-bottom: vw(40);
-        
-        .sec-04__item {
-          text-align: center;
-          
-          .sec-04__size-01 {
-            margin-bottom: vw(15);
-            
-            .common-box-text {
-              background: $color-theme;
-              color: $color-white;
-              font-size: vw(12);
-              font-weight: $bold;
-              padding: vw(8) vw(20);
-              display: inline-block;
-            }
-          }
-          
-          .sec-04__images {
-            .swiper {
-              width: 100%;
-              height: vw(300);
-              
-              .swiper-slide {
-                img {
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-                }
-              }
-            }
-          }
-        }
-      }
-      
-      &__bottom-contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        
-        .sec-04__bottom-content {
-          text-align: center;
-          
-          &-text {
-            font-size: vw(12);
-            line-height: 1.6;
-            color: $color-main_gray;
-            margin-bottom: vw(15);
-            
-            &--top, &--bottom {
-              margin-bottom: vw(10);
-            }
-          }
-          
-          &-image {
-            img {
-              width: 100%;
-              height: auto;
-              display: block;
-            }
-          }
-        }
-      }
-    }
-  
-    // セクション04-2
-    .sec-04-2 {
-      margin-bottom: vw(60);
-      text-align: center;
-      
-      img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-    }
-  
-    // セクション05
-    .sec-05 {
-      margin-bottom: vw(60);
-      
-      &__contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        margin-bottom: vw(40);
-        
-        .sec-05__item {
-          text-align: center;
-          
-          .sec-05__size-01 {
-            margin-bottom: vw(15);
-            
-            .common-box-text {
-              background: $color-theme;
-              color: $color-white;
-              font-size: vw(12);
-              font-weight: $bold;
-              padding: vw(8) vw(20);
-              display: inline-block;
-            }
-          }
-          
-          .sec-05__images {
-            .swiper {
-              width: 100%;
-              height: vw(300);
-              
-              .swiper-slide {
-                img {
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-                }
-              }
-            }
-          }
-        }
-      }
-      
-      &__bottom-contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(30);
-        
-        .sec-05__bottom-content {
-          text-align: center;
-          
-          &-text {
-            font-size: vw(12);
-            line-height: 1.6;
-            color: $color-main_gray;
-            margin-bottom: vw(15);
-          }
-          
-          &-image {
-            img {
-              width: 100%;
-              height: auto;
-              display: block;
-            }
-          }
-        }
-      }
-    }
-  
-    // セクション06
-    .sec-06 {
-      &__contents {
-        display: flex;
-        flex-direction: column;
-        gap: vw(40);
-      }
-      
-      &__content {
-        text-align: center;
-        
-        .sec-06__text {
-          font-size: vw(18);
-          font-weight: $bold;
-          color: $color-theme;
-          text-transform: uppercase;
-          margin-bottom: vw(20);
-        }
-        
-        .sec-06__images {
-          .swiper {
-            width: 100%;
-            
-            .swiper-slide {
-              .sec-06-item {
-                text-align: center;
-                
-                &__image {
-                  margin-bottom: vw(10);
-                  
-                  img {
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                  }
-                }
-                
-                &__text {
-                  font-size: vw(10);
-                  color: $color-main_gray;
-                  background: $color-bg_side;
-                  padding: vw(6) vw(10);
-                  display: inline-block;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+  // LPコンテンツ全体（スマホではサイドバーなし）
+  #SN250811denim .lp-contents {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background: $color-white;
   }
+
+  // サイドバーを非表示
+  #SN250811denim .lp-aside--left,
+  #SN250811denim .lp-aside--right {
+    display: none;
+  }
+
+  // メインコンテンツ
+  #SN250811denim .lp-main-content {
+    margin: 0;
+    padding: vw(15);
+  }
+
+  // セクション01
+  #SN250811denim .sec-01 {
+    margin-bottom: vw(60);
+  }
+  
+  #SN250811denim .sec-01__top-contents {
+    margin-bottom: vw(60);
+  }
+  
+  #SN250811denim .sec-01__top-content-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #SN250811denim .sec-01__top-content-text {
+    font-size: vw(24);
+  }
+  
+  #SN250811denim .sec-01__top-content-text span {
+    display: block;
+    width: vw(2);
+    height: vw(32);
+    margin-top: rem(8);
+    margin-bottom: vw(9);
+  }
+  
+  #SN250811denim .sec-01__middel-text--top {
+    font-size: vw(24);
+    font-weight: $bold;
+    margin-bottom: vw(15);
+    text-transform: uppercase;
+  }
+  
+  #SN250811denim .sec-01__middel-text--middel {
+    font-size: vw(32);
+    font-weight: $bold;
+    color: $color-theme;
+    margin-bottom: vw(20);
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+  #SN250811denim .sec-01__middel-text--bottom {
+    font-size: vw(14);
+    color: $color-main_gray;
+    line-height: 1.6;
+  }
+  
+  #SN250811denim .sec-01__middel-contents-image {
+    order: 2;
+  }
+  
+  #SN250811denim .sec-01__middel-contents-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  // セクション02
+  #SN250811denim .sec-02 {
+    margin-bottom: vw(60);
+    text-align: center;
+  }
+  
+  #SN250811denim .sec-02__description {
+    font-size: vw(14);
+    line-height: 1.8;
+    color: $color-main_gray;
+    margin-bottom: vw(40);
+  }
+  
+  #SN250811denim .sec-02__line-up {
+    margin-bottom: vw(30);
+  }
+  
+  #SN250811denim .sec-02__line-up .common-box-text {
+    font-size: vw(14);
+    padding: vw(12) vw(30);
+  }
+  
+  #SN250811denim .sec-02__images {
+    gap: vw(30);
+  }
+  
+  #SN250811denim .sec-02__images-item--top {
+    margin-bottom: vw(20);
+  }
+  
+  #SN250811denim .sec-02__images-item--top .sec-02__images-item-image {
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-02__images-item--top .sec-02__images-item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #SN250811denim .sec-02__images-item--top .sec-02__images-item-text {
+    font-size: vw(14);
+  }
+  
+  #SN250811denim .sec-02__images-item--bottom {
+    gap: vw(30);
+  }
+  
+  #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image {
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-text {
+    font-size: vw(14);
+    line-height: 1.4;
+  }
+
+  // 共通タイトル
+  #SN250811denim .common-title {
+    font-size: vw(32);
+    margin-bottom: vw(40);
+  }
+
+  // セクション03
+  #SN250811denim .sec-03 {
+    margin-bottom: vw(60);
+  }
+  
+  #SN250811denim .sec-03__contents {
+    gap: vw(30);
+    margin-bottom: vw(40);
+  }
+  
+  #SN250811denim .sec-03__size-01 {
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-03__size-01 .common-box-text {
+    font-size: vw(12);
+    padding: vw(8) vw(20);
+  }
+  
+  #SN250811denim .sec-03__images .swiper {
+    width: 100%;
+    height: vw(300);
+  }
+  
+  
+  #SN250811denim .sec-03__bottom-contents {
+    gap: vw(30);
+  }
+  
+  
+  #SN250811denim .sec-03__bottom-content-text {
+    font-size: vw(12);
+    margin-bottom: vw(15);
+  }
+
+  // セクション03-2
+  #SN250811denim .sec-03-2 {
+    margin-bottom: vw(60);
+  }
+  
+
+  // セクション04
+  #SN250811denim .sec-04 {
+    margin-bottom: vw(60);
+  }
+  
+  #SN250811denim .sec-04__contents {
+    gap: vw(30);
+    margin-bottom: vw(40);
+  }
+  
+  #SN250811denim .sec-04__size-01 {
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-04__images .swiper {
+    width: 100%;
+    height: vw(300);
+  }
+  
+  #SN250811denim .sec-04__bottom-contents {
+    gap: vw(30);
+  }
+
+  
+  #SN250811denim .sec-04__bottom-content-text {
+    font-size: vw(12);
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-04__bottom-content-text--top,
+  #SN250811denim .sec-04__bottom-content-text--bottom {
+    margin-bottom: vw(10);
+  }
+
+
+  // セクション04-2
+  #SN250811denim .sec-04-2 {
+    margin-bottom: vw(60);
+    text-align: center;
+  }
+  
+  #SN250811denim .sec-04-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  // セクション05
+  #SN250811denim .sec-05 {
+    margin-bottom: vw(60);
+  }
+  
+  #SN250811denim .sec-05__contents {
+    gap: vw(30);
+    margin-bottom: vw(40);
+  }
+  
+  #SN250811denim .sec-05__item {
+    text-align: center;
+  }
+  
+  #SN250811denim .sec-05__size-01 {
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-05__images .swiper {
+    width: 100%;
+    height: vw(300);
+  }
+
+  #SN250811denim .sec-05__bottom-contents {
+    gap: vw(30);
+  }
+  
+  
+  #SN250811denim .sec-05__bottom-content-text {
+    font-size: vw(12);
+    margin-bottom: vw(15);
+  }
+  
+  #SN250811denim .sec-05__bottom-content-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  // セクション06
+  #SN250811denim .sec-06__contents {
+    gap: vw(40);
+  }
+  
+  #SN250811denim .sec-06__content {
+    text-align: center;
+  }
+  
+  #SN250811denim .sec-06__text {
+    font-size: vw(18);
+    margin-bottom: vw(20);
+  }
+  
+  #SN250811denim .sec-06__images .swiper {
+    width: 100%;
+  }
+
+  
+  #SN250811denim .sec-06-item__image {
+    margin-bottom: vw(10);
+  }
+  
+  #SN250811denim .sec-06-item__text {
+    font-size: vw(10);
+    padding: vw(6) vw(10);
+  }
+
 }
