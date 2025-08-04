@@ -86,7 +86,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="sec-02 border-top-line">
+        <div class="sec-02">
           <p class="sec-02__description common-description">
             計算されたシルエット、ボディラインに程良く寄り添う素材<br>
             履くだけでスタイルアップが叶い、自信が持てる<br>

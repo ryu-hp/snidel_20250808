@@ -248,7 +248,7 @@
     text-orientation: mixed;
     color: $color-black;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     margin: 0 auto
   }
   
@@ -555,7 +555,7 @@
 		.sec-04__bottom-content--bottom .sec-04__bottom-content-text::after {
 			width: 80%;
 			left: 95%;
-			bottom: 6%;
+			top: 6%;
 			transform: rotate(-30deg);
 		}
 
@@ -578,7 +578,6 @@
 
     // セクション04-2
     .sec-04-2 {
-      margin-bottom: rem(80);
       text-align: center;
     }
     
@@ -592,7 +591,8 @@
 
     // セクション05
     .sec-05 {
-      margin-bottom: rem(80);
+      margin-bottom: rem(180);
+      padding-top: rem(90);
     }
     
     .sec-05__contents {
@@ -626,22 +626,70 @@
       object-fit: cover;
     }
     
-    .sec-05__bottom-contents {
-      display: flex;
-      gap: rem(40);
-    }
-    
     .sec-05__bottom-content {
-      flex: 1;
-      text-align: center;
+      position: relative;
     }
     
     .sec-05__bottom-content-text {
-      font-size: rem(14);
-      line-height: 1.6;
-      color: $color-black;
-      margin-bottom: rem(20);
+      position: absolute;
+      font-size: rem(24);
+      letter-spacing: 0.05em;
     }
+    .sec-05__bottom-content--top .sec-05__bottom-content-text {
+      left: calc(60 / 750 * 100%);
+      top: calc(209 / 600 * 100%);
+    }
+    .sec-05__bottom-content--middle .sec-05__bottom-content-text {
+      left: calc(75 / 750 * 100%);
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .sec-05__bottom-content--bottom .sec-05__bottom-content-text {
+      left: calc(75 / 750 * 100%);
+      top: 60%;
+      transform: translateY(-50%);
+    }
+
+		.sec-05__bottom-content-text::after {
+			display: block;
+			content: "";
+			height: 2px;
+			background-color: $color-black;
+			position: absolute;
+		}
+		.sec-05__bottom-content--top .sec-05__bottom-content-text::after {
+			width: 40%;
+			left: 95%;
+			bottom: -40%;
+			transform: rotate(-45deg);
+		}
+		.sec-05__bottom-content--middle .sec-05__bottom-content-text::after {
+			width: 80%;
+			right: 100%;
+			top: 45%;
+		}
+		.sec-05__bottom-content--bottom .sec-05__bottom-content-text::after {
+			width: 80%;
+			left: 100%;
+			top: -10%;
+      transform: rotate(-45deg);
+		}
+
+		.sec-05__bottom-content--top .sec-05__bottom-content-image {
+			margin-left:auto;
+			width: calc(480 / 750 * 100%);
+		}
+		.sec-05__bottom-content--middle .sec-05__bottom-content-image {
+			margin-right:auto;
+			margin-left: rem(40);
+			width: calc(360 / 750 * 100%);
+		}
+		.sec-05__bottom-content--bottom .sec-05__bottom-content-image {
+			margin-left:auto;
+			margin-right: rem(40);
+      margin-top: rem(-95);
+			width: calc(360 / 750 * 100%);
+		}
     
     .sec-05__bottom-content-image img {
       width: 100%;
