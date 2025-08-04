@@ -86,7 +86,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="sec-02">
+        <div class="sec-02 border-top-line">
           <p class="sec-02__description common-description">
             計算されたシルエット、ボディラインに程良く寄り添う素材<br>
             履くだけでスタイルアップが叶い、自信が持てる<br>
@@ -119,7 +119,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="sec-03">
+        <div class="sec-03 border-top-line">
           <div class="sec-03__tile">
             <p class="common-title">
               stretch<br>
@@ -254,10 +254,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="sec-03-2">
+        <div class="sec-03-2 border-top-line">
           <img src="./img/image_12.jpg" >
         </div>
-        <div class="sec-04">
+        <div class="sec-04 border-top-line">
           <div class="sec-04__tile">
             <p class="common-title">
               high waist<br>
@@ -423,7 +423,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <div class="sec-04-2">
           <img src="./img/image_19.jpg" alt="バックヨーク部分は高め位置に切り替えを入れ">
         </div>
-        <div class="sec-05">
+        <div class="sec-05 border-top-line">
           <div class="sec-05__tile">
             <p class="common-title">
               high waist<br>
@@ -592,7 +592,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
             
         </div>
-        <div class="sec-06">
+        <div class="sec-06 border-top-line">
           <div class="sec-06__tile">
             <p class="common-title">
               coordinate

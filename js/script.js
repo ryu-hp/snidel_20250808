@@ -65,16 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
         delay: 3000,
         disableOnInteraction: false,
       },
-      breakpoints: {
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-      },
     });
   }
 
@@ -89,16 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
         delay: 3000,
         disableOnInteraction: false,
       },
-      breakpoints: {
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-      },
     });
   }
 
@@ -112,16 +92,6 @@ document.addEventListener('DOMContentLoaded', function() {
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-      },
-      breakpoints: {
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
       },
     });
   }
