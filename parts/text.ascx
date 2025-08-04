@@ -413,7 +413,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
             <div class="sec-04__bottom-content sec-04__bottom-content--bottom">
               <p class="sec-04__bottom-content-text">
-                バックヨーク部分は<br>高め位置に切り替えを入れ、
+                バックヨーク部分は<br>高め位置に切り替えを入れ、<br>ヒップ位置を高く見せる
               </p>
               <div class="sec-04__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_18.jpg" alt="腰位置高く魅せるハイウエスト仕様">

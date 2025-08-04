@@ -978,6 +978,40 @@ select::-ms-expand {
     padding: calc(6 / 750 * 100vw) calc(42 / 750 * 100vw);
     letter-spacing: 0.05em;
   }
+  #SN250811denim .common-box-text--size {
+    font-size: calc(30 / 750 * 100vw);
+    padding-left: calc(34 / 750 * 100vw);
+    padding-right: calc(36 / 750 * 100vw);
+    padding-bottom: calc(8 / 750 * 100vw);
+    line-height: 1;
+  }
+  #SN250811denim .common-title {
+    font-size: calc(76 / 750 * 100vw);
+    margin-bottom: calc(63 / 750 * 100vw);
+    padding-left: calc(36 / 750 * 100vw);
+    letter-spacing: 0.06em;
+    line-height: 1.1;
+  }
+  #SN250811denim .lp-aside--right {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    top: auto;
+    padding: 0;
+  }
+  #SN250811denim .lp-aside__contents--right {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  #SN250811denim .lp-aside-right__item {
+    padding: calc(25 / 750 * 100vw) calc(15 / 750 * 100vw);
+    width: 100%;
+  }
+  #SN250811denim .lp-aside-right__item:not(:last-child) {
+    border-right: 2px solid #323232;
+  }
   #SN250811denim {
     width: 100%;
     min-height: 100vh;
@@ -989,8 +1023,7 @@ select::-ms-expand {
     min-height: 100vh;
     background: #fff;
   }
-  #SN250811denim .lp-aside--left,
-  #SN250811denim .lp-aside--right {
+  #SN250811denim .lp-aside--left {
     display: none;
   }
   #SN250811denim .lp-main-content {
@@ -1051,13 +1084,14 @@ select::-ms-expand {
     display: block;
   }
   #SN250811denim .sec-02 {
-    margin-bottom: calc(60 / 750 * 100vw);
+    margin-bottom: calc(109 / 750 * 100vw);
     text-align: center;
   }
   #SN250811denim .sec-02__description {
     font-size: calc(24 / 750 * 100vw);
     line-height: 2;
     margin-bottom: calc(140 / 750 * 100vw);
+    letter-spacing: 0.05em;
   }
   #SN250811denim .sec-02__line-up {
     margin-bottom: calc(50 / 750 * 100vw);
@@ -1066,35 +1100,38 @@ select::-ms-expand {
     gap: calc(30 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item {
-    gap: calc(13 / 750 * 100vw);
+    gap: 0;
   }
   #SN250811denim .sec-02__images-item-image {
     margin-bottom: calc(15 / 750 * 100vw);
     max-width: calc(240 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--top {
-    margin-bottom: calc(20 / 750 * 100vw);
+    margin-bottom: calc(38 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-image {
-    margin-bottom: calc(36 / 750 * 100vw);
+    margin-bottom: calc(26 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-image img {
     width: 100%;
     height: auto;
     display: block;
   }
+  #SN250811denim .sec-02__images-item-text {
+    letter-spacing: -0.03em;
+  }
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-text {
     font-size: calc(24 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom {
-    gap: calc(92 / 750 * 100vw);
+    gap: calc(40 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item {
-    max-width: calc(240 / 750 * 100vw);
+    max-width: calc(290 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image {
-    margin-bottom: calc(15 / 750 * 100vw);
-    max-width: calc(300 / 750 * 100vw);
+    margin-bottom: calc(36 / 750 * 100vw);
+    max-width: calc(240 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image img {
     width: 100%;
@@ -1104,66 +1141,86 @@ select::-ms-expand {
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-text {
     font-size: calc(24 / 750 * 100vw);
     line-height: 1.4;
-  }
-  #SN250811denim .common-title {
-    font-size: calc(32 / 750 * 100vw);
-    margin-bottom: calc(40 / 750 * 100vw);
+    line-height: 1.8;
+    margin-top: -0.6rem;
   }
   #SN250811denim .sec-03 {
-    margin-bottom: calc(60 / 750 * 100vw);
+    margin-bottom: calc(149 / 750 * 100vw);
+    padding-top: calc(80 / 750 * 100vw);
   }
   #SN250811denim .sec-03__contents {
-    gap: calc(30 / 750 * 100vw);
-    margin-bottom: calc(40 / 750 * 100vw);
+    gap: calc(99 / 750 * 100vw);
+    margin-bottom: calc(119 / 750 * 100vw);
   }
   #SN250811denim .sec-03__size-01 {
-    margin-bottom: calc(15 / 750 * 100vw);
-  }
-  #SN250811denim .sec-03__size-01 .common-box-text {
-    font-size: calc(12 / 750 * 100vw);
-    padding: calc(8 / 750 * 100vw) calc(20 / 750 * 100vw);
+    margin-bottom: calc(31 / 750 * 100vw);
+    padding-left: calc(40 / 750 * 100vw);
   }
   #SN250811denim .sec-03__images .swiper {
     width: 100%;
-    height: calc(300 / 750 * 100vw);
   }
   #SN250811denim .sec-03__bottom-contents {
     gap: calc(30 / 750 * 100vw);
   }
   #SN250811denim .sec-03__bottom-content-text {
-    font-size: calc(12 / 750 * 100vw);
-    margin-bottom: calc(15 / 750 * 100vw);
+    font-size: calc(24 / 750 * 100vw);
+    letter-spacing: 0.053em;
+  }
+  #SN250811denim .sec-03__bottom-content--top .sec-03__bottom-content-text {
+    top: 46.8%;
+  }
+  #SN250811denim .sec-03__bottom-content--top {
+    margin-bottom: calc(50 / 750 * 100vw);
+  }
+  #SN250811denim .sec-03__bottom-content--middle .sec-03__bottom-content-image {
+    margin-left: calc(40 / 750 * 100vw);
+  }
+  #SN250811denim .sec-03__bottom-content--bottom .sec-03__bottom-content-image {
+    margin-right: calc(40 / 750 * 100vw);
+    margin-top: calc(-95 / 750 * 100vw);
   }
   #SN250811denim .sec-03-2 {
     margin-bottom: calc(60 / 750 * 100vw);
   }
   #SN250811denim .sec-04 {
-    margin-bottom: calc(60 / 750 * 100vw);
+    margin-bottom: calc(148 / 750 * 100vw);
+    padding-top: calc(18.5 / 750 * 100vw);
   }
   #SN250811denim .sec-04__contents {
-    gap: calc(30 / 750 * 100vw);
-    margin-bottom: calc(40 / 750 * 100vw);
+    gap: calc(101 / 750 * 100vw);
+    margin-bottom: calc(123 / 750 * 100vw);
   }
   #SN250811denim .sec-04__size-01 {
-    margin-bottom: calc(15 / 750 * 100vw);
+    margin-bottom: calc(28 / 750 * 100vw);
+    padding-left: calc(40 / 750 * 100vw);
   }
   #SN250811denim .sec-04__images .swiper {
     width: 100%;
-    height: calc(300 / 750 * 100vw);
   }
   #SN250811denim .sec-04__bottom-contents {
     gap: calc(30 / 750 * 100vw);
   }
   #SN250811denim .sec-04__bottom-content-text {
-    font-size: calc(12 / 750 * 100vw);
-    margin-bottom: calc(15 / 750 * 100vw);
+    font-size: calc(24 / 750 * 100vw);
+    letter-spacing: 0.047em;
   }
   #SN250811denim .sec-04__bottom-content-text--top,
   #SN250811denim .sec-04__bottom-content-text--bottom {
     margin-bottom: calc(10 / 750 * 100vw);
   }
+  #SN250811denim .sec-04__bottom-content--top .sec-04__bottom-content-image {
+    margin-left: calc(40 / 750 * 100vw);
+  }
+  #SN250811denim .sec-04__bottom-content-text--top {
+    top: 16.3%;
+  }
+  #SN250811denim .sec-04__bottom-content--top {
+    margin-bottom: calc(50 / 750 * 100vw);
+  }
+  #SN250811denim .sec-04__bottom-content--bottom .sec-04__bottom-content-image {
+    margin-right: calc(40 / 750 * 100vw);
+  }
   #SN250811denim .sec-04-2 {
-    margin-bottom: calc(60 / 750 * 100vw);
     text-align: center;
   }
   #SN250811denim .sec-04-2 img {
@@ -1172,52 +1229,84 @@ select::-ms-expand {
     display: block;
   }
   #SN250811denim .sec-05 {
-    margin-bottom: calc(60 / 750 * 100vw);
+    margin-bottom: calc(180 / 750 * 100vw);
+    padding-top: calc(81 / 750 * 100vw);
   }
   #SN250811denim .sec-05__contents {
-    gap: calc(30 / 750 * 100vw);
-    margin-bottom: calc(40 / 750 * 100vw);
+    gap: calc(100 / 750 * 100vw);
+    margin-bottom: calc(122 / 750 * 100vw);
   }
   #SN250811denim .sec-05__item {
     text-align: center;
   }
   #SN250811denim .sec-05__size-01 {
-    margin-bottom: calc(15 / 750 * 100vw);
+    margin-bottom: calc(29 / 750 * 100vw);
+    padding-left: calc(40 / 750 * 100vw);
   }
   #SN250811denim .sec-05__images .swiper {
     width: 100%;
-    height: calc(300 / 750 * 100vw);
   }
   #SN250811denim .sec-05__bottom-contents {
     gap: calc(30 / 750 * 100vw);
   }
   #SN250811denim .sec-05__bottom-content-text {
-    font-size: calc(12 / 750 * 100vw);
-    margin-bottom: calc(15 / 750 * 100vw);
+    font-size: calc(24 / 750 * 100vw);
+    letter-spacing: 0.047em;
   }
   #SN250811denim .sec-05__bottom-content-image img {
     width: 100%;
     height: auto;
     display: block;
   }
+  #SN250811denim .sec-05__bottom-content--top .sec-05__bottom-content-text {
+    top: 32.9%;
+  }
+  #SN250811denim .sec-05__bottom-content--top .sec-05__bottom-content-text {
+    margin-bottom: calc(50 / 750 * 100vw);
+  }
+  #SN250811denim .sec-05__bottom-content--top {
+    margin-bottom: calc(51 / 750 * 100vw);
+  }
+  #SN250811denim .sec-05__bottom-content--middle .sec-05__bottom-content-image {
+    margin-left: calc(40 / 750 * 100vw);
+  }
+  #SN250811denim .sec-05__bottom-content--bottom .sec-05__bottom-content-image {
+    margin-right: calc(40 / 750 * 100vw);
+    margin-top: calc(-94 / 750 * 100vw);
+  }
+  #SN250811denim .sec-06 {
+    padding-top: calc(76 / 750 * 100vw);
+    padding-bottom: calc(120 / 750 * 100vw);
+  }
+  #SN250811denim .sec-06__tile .common-title {
+    margin-bottom: calc(62 / 750 * 100vw);
+  }
   #SN250811denim .sec-06__contents {
-    gap: calc(40 / 750 * 100vw);
+    gap: calc(109 / 750 * 100vw);
+    margin-bottom: 11.1rem;
   }
   #SN250811denim .sec-06__content {
-    text-align: center;
+    padding-top: calc(22 / 750 * 100vw);
   }
   #SN250811denim .sec-06__text {
-    font-size: calc(18 / 750 * 100vw);
-    margin-bottom: calc(20 / 750 * 100vw);
+    font-size: calc(29.3 / 750 * 100vw);
+    margin-bottom: calc(18 / 750 * 100vw);
+    font-weight: 700;
+    padding-left: calc(39 / 750 * 100vw);
   }
   #SN250811denim .sec-06__images .swiper {
     width: 100%;
   }
   #SN250811denim .sec-06-item__image {
-    margin-bottom: calc(10 / 750 * 100vw);
+    margin-bottom: calc(16 / 750 * 100vw);
   }
   #SN250811denim .sec-06-item__text {
-    font-size: calc(10 / 750 * 100vw);
-    padding: calc(6 / 750 * 100vw) calc(10 / 750 * 100vw);
+    font-size: calc(24 / 750 * 100vw);
+  }
+  #SN250811denim .btnArea {
+    height: calc(62 / 750 * 100vw);
+  }
+  #SN250811denim .btnArea_all a {
+    font-size: calc(32 / 750 * 100vw);
   }
 }

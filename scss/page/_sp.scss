@@ -7,6 +7,44 @@
     padding: vw(6) vw(42);
     letter-spacing: 0.05em;
   }
+  #SN250811denim .common-box-text--size {
+    font-size: vw(30);
+    padding-left: vw(34);
+    padding-right: vw(36);
+    padding-bottom: vw(8);
+    line-height: 1;
+  }
+  // 共通タイトル
+  #SN250811denim .common-title {
+    font-size: vw(76);
+    margin-bottom: vw(63);
+    padding-left: vw(36);
+    letter-spacing: 0.06em;
+    line-height: 1.1;
+  }
+
+  #SN250811denim .lp-aside--right {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    top: auto;
+    padding: 0;
+  }
+  #SN250811denim .lp-aside__contents--right {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  #SN250811denim .lp-aside-right__item {
+    padding: vw(25) vw(15);
+    width: 100%;
+  }
+
+  #SN250811denim .lp-aside-right__item:not(:last-child) {
+    border-right: 2px solid $color-black;
+  }
+
   // メインコンテナ
   #SN250811denim {
     width: 100%;
@@ -23,8 +61,7 @@
   }
 
   // サイドバーを非表示
-  #SN250811denim .lp-aside--left,
-  #SN250811denim .lp-aside--right {
+  #SN250811denim .lp-aside--left {
     display: none;
   }
 
@@ -99,7 +136,7 @@
 
   // セクション02
   #SN250811denim .sec-02 {
-    margin-bottom: vw(60);
+    margin-bottom: vw(109);
     text-align: center;
   }
   
@@ -107,6 +144,7 @@
     font-size: vw(24);
     line-height: 2;
     margin-bottom: vw(140);
+    letter-spacing: 0.05em;
   }
   
   #SN250811denim .sec-02__line-up {
@@ -118,7 +156,7 @@
   }
   
   #SN250811denim .sec-02__images-item {
-    gap: vw(13);
+    gap: 0;
   }
   #SN250811denim .sec-02__images-item-image {
     margin-bottom: vw(15);
@@ -126,11 +164,11 @@
   }
 
   #SN250811denim .sec-02__images-item--top {
-    margin-bottom: vw(20);
+    margin-bottom: vw(38);
   }
   
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-image {
-    margin-bottom: vw(36);
+    margin-bottom: vw(26);
   }
   
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-image img {
@@ -138,22 +176,24 @@
     height: auto;
     display: block;
   }
-  
+  #SN250811denim .sec-02__images-item-text  {
+    letter-spacing: -0.03em;
+  }
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-text {
     font-size: vw(24);
   }
   
   #SN250811denim .sec-02__images-item--bottom {
-    gap: vw(92);
+    gap: vw(40);
   }
 
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item {
-    max-width: vw(240);
+    max-width: vw(290);
   }
   
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image {
-    margin-bottom: vw(15);
-    max-width: vw(300);
+    margin-bottom: vw(36);
+    max-width: vw(240);
   }
   
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image img {
@@ -165,36 +205,29 @@
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-text {
     font-size: vw(24);
     line-height: 1.4;
+    line-height: 1.8;
+    margin-top: rem(-6);
   }
 
-  // 共通タイトル
-  #SN250811denim .common-title {
-    font-size: vw(32);
-    margin-bottom: vw(40);
-  }
 
   // セクション03
   #SN250811denim .sec-03 {
-    margin-bottom: vw(60);
+    margin-bottom: vw(149);
+    padding-top: vw(80);
   }
   
   #SN250811denim .sec-03__contents {
-    gap: vw(30);
-    margin-bottom: vw(40);
+    gap: vw(99);
+    margin-bottom: vw(119);
   }
   
   #SN250811denim .sec-03__size-01 {
-    margin-bottom: vw(15);
+    margin-bottom: vw(31);
+    padding-left: vw(40);
   }
-  
-  #SN250811denim .sec-03__size-01 .common-box-text {
-    font-size: vw(12);
-    padding: vw(8) vw(20);
-  }
-  
+
   #SN250811denim .sec-03__images .swiper {
     width: 100%;
-    height: vw(300);
   }
   
   
@@ -204,8 +237,22 @@
   
   
   #SN250811denim .sec-03__bottom-content-text {
-    font-size: vw(12);
-    margin-bottom: vw(15);
+    font-size: vw(24);
+    letter-spacing: 0.053em;
+  }
+  
+  #SN250811denim .sec-03__bottom-content--top .sec-03__bottom-content-text {
+    top: 46.8%;
+  }
+  #SN250811denim .sec-03__bottom-content--top {
+    margin-bottom: vw(50);
+  }
+  #SN250811denim .sec-03__bottom-content--middle .sec-03__bottom-content-image {
+    margin-left: vw(40);
+  }
+  #SN250811denim .sec-03__bottom-content--bottom .sec-03__bottom-content-image {
+    margin-right: vw(40);
+    margin-top: vw(-95);
   }
 
   // セクション03-2
@@ -216,21 +263,22 @@
 
   // セクション04
   #SN250811denim .sec-04 {
-    margin-bottom: vw(60);
+    margin-bottom: vw(148);
+    padding-top: vw(18.5);
   }
   
   #SN250811denim .sec-04__contents {
-    gap: vw(30);
-    margin-bottom: vw(40);
+    gap: vw(101);
+    margin-bottom: vw(123);
   }
   
   #SN250811denim .sec-04__size-01 {
-    margin-bottom: vw(15);
+    margin-bottom: vw(28);
+    padding-left: vw(40);
   }
   
   #SN250811denim .sec-04__images .swiper {
     width: 100%;
-    height: vw(300);
   }
   
   #SN250811denim .sec-04__bottom-contents {
@@ -239,8 +287,8 @@
 
   
   #SN250811denim .sec-04__bottom-content-text {
-    font-size: vw(12);
-    margin-bottom: vw(15);
+    font-size: vw(24);
+    letter-spacing: 0.047em;
   }
   
   #SN250811denim .sec-04__bottom-content-text--top,
@@ -248,10 +296,23 @@
     margin-bottom: vw(10);
   }
 
+  #SN250811denim .sec-04__bottom-content--top .sec-04__bottom-content-image {
+    margin-left: vw(40);
+  }
+
+  #SN250811denim .sec-04__bottom-content-text--top {
+    top: 16.3%;
+  }
+  #SN250811denim .sec-04__bottom-content--top {
+    margin-bottom: vw(50);
+  }
+
+  #SN250811denim .sec-04__bottom-content--bottom .sec-04__bottom-content-image {
+    margin-right: vw(40);
+  }
 
   // セクション04-2
   #SN250811denim .sec-04-2 {
-    margin-bottom: vw(60);
     text-align: center;
   }
   
@@ -263,12 +324,13 @@
 
   // セクション05
   #SN250811denim .sec-05 {
-    margin-bottom: vw(60);
+    margin-bottom: vw(180);
+    padding-top: vw(81);
   }
   
   #SN250811denim .sec-05__contents {
-    gap: vw(30);
-    margin-bottom: vw(40);
+    gap: vw(100);
+    margin-bottom: vw(122);
   }
   
   #SN250811denim .sec-05__item {
@@ -276,12 +338,12 @@
   }
   
   #SN250811denim .sec-05__size-01 {
-    margin-bottom: vw(15);
+    margin-bottom: vw(29);
+    padding-left: vw(40);
   }
   
   #SN250811denim .sec-05__images .swiper {
     width: 100%;
-    height: vw(300);
   }
 
   #SN250811denim .sec-05__bottom-contents {
@@ -290,8 +352,8 @@
   
   
   #SN250811denim .sec-05__bottom-content-text {
-    font-size: vw(12);
-    margin-bottom: vw(15);
+    font-size: vw(24);
+    letter-spacing: 0.047em;
   }
   
   #SN250811denim .sec-05__bottom-content-image img {
@@ -300,18 +362,52 @@
     display: block;
   }
 
-  // セクション06
-  #SN250811denim .sec-06__contents {
-    gap: vw(40);
+  #SN250811denim .sec-05__bottom-content--top .sec-05__bottom-content-text {
+    top: 32.9%;
   }
-  
+
+  #SN250811denim .sec-05__bottom-content--top .sec-05__bottom-content-text {
+    margin-bottom: vw(50);
+  }
+
+  #SN250811denim .sec-05__bottom-content--top {
+    margin-bottom: vw(51);
+  }
+
+  #SN250811denim .sec-05__bottom-content--middle .sec-05__bottom-content-image {
+    margin-left: vw(40);
+  }
+
+  #SN250811denim .sec-05__bottom-content--bottom .sec-05__bottom-content-image {
+    margin-right: vw(40);
+    margin-top: vw(-94);
+  }
+
+  // セクション06
+
+  #SN250811denim .sec-06 {
+    padding-top: vw(76);
+    padding-bottom: vw(120);
+  }
+
+  #SN250811denim .sec-06__tile .common-title {
+    margin-bottom: vw(62);
+  }
+
+  #SN250811denim .sec-06__contents {
+    gap: vw(109);
+    margin-bottom: rem(111);
+  }
+
   #SN250811denim .sec-06__content {
-    text-align: center;
+    padding-top: vw(22);
   }
   
   #SN250811denim .sec-06__text {
-    font-size: vw(18);
-    margin-bottom: vw(20);
+    font-size: vw(29.3);
+    margin-bottom: vw(18);
+    font-weight: $bold;
+    padding-left: vw(39);
   }
   
   #SN250811denim .sec-06__images .swiper {
@@ -320,12 +416,18 @@
 
   
   #SN250811denim .sec-06-item__image {
-    margin-bottom: vw(10);
+    margin-bottom: vw(16);
   }
   
   #SN250811denim .sec-06-item__text {
-    font-size: vw(10);
-    padding: vw(6) vw(10);
+    font-size: vw(24);
+  }
+
+  #SN250811denim .btnArea {
+    height: vw(62);
+  }
+  #SN250811denim .btnArea_all a {
+    font-size: vw(32);
   }
 
 }

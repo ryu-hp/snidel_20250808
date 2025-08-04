@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
         delay: 3000,
         disableOnInteraction: false,
       },
+      breakpoints: {
+        767: {
+          spaceBetween: 20,
+        },
+      },
     });
   });
 
