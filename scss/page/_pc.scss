@@ -230,6 +230,17 @@
     color: $color-black;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
+    font-family: $second-font-family;
+  }
+  .lp-aside-right__item-text--image {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    max-width: rem(24);
+    width: 100%;
   }
 
   // メインコンテンツ

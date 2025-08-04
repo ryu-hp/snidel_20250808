@@ -377,6 +377,18 @@ select::-ms-expand {
   color: #323232;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
+  font-family: "new-atten", sans-serif;
+}
+#SN250811denim .lp-aside-right__item-text--image {
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  max-width: 2.4rem;
+  width: 100%;
 }
 #SN250811denim .lp-main-content {
   -webkit-box-flex: 1;
@@ -1004,13 +1016,33 @@ select::-ms-expand {
   #SN250811denim .lp-aside__contents--right {
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
+    display: grid;
+    max-width: 100%;
+    padding: 0;
   }
   #SN250811denim .lp-aside-right__item {
-    padding: calc(25 / 750 * 100vw) calc(15 / 750 * 100vw);
+    padding: calc(26 / 750 * 100vw) calc(15 / 750 * 100vw);
     width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: calc(6 / 750 * 100vw);
   }
   #SN250811denim .lp-aside-right__item:not(:last-child) {
     border-right: 2px solid #323232;
+  }
+  #SN250811denim .lp-aside-right__item-text--image {
+    bottom: calc(-6 / 750 * 100vw);
+    max-width: calc(24 / 750 * 100vw);
+  }
+  #SN250811denim .lp-aside-right__item-immage {
+    width: calc(67 / 750 * 100vw);
+  }
+  #SN250811denim .lp-aside-right__item-text {
+    font-size: calc(20 / 750 * 100vw);
+    font-weight: 700;
+    padding-bottom: calc(19 / 750 * 100vw);
+    line-height: 1.5;
+    letter-spacing: 0.06em;
   }
   #SN250811denim {
     width: 100%;

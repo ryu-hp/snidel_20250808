@@ -827,19 +827,19 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             <div class="lp-aside-right__item-immage">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_aside-01.png" alt="STRETCH">
             </div>
-            <p class="lp-aside-right__item-text">stretch<br>flare denim</p>
+            <p class="lp-aside-right__item-text">stretch<br>flare denim<span class="lp-aside-right__item-text--image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/menu-arrow-down.svg" alt=""></span></p>
           </div>
           <div class="lp-aside-right__item lp-aside-right__text--top">
             <div class="lp-aside-right__item-immage">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_aside-02.png" alt="HIGH WAIST">
             </div>
-            <p class="lp-aside-right__item-text">HIGH WAIST<br>flare</p>
+            <p class="lp-aside-right__item-text">HIGH WAIST<br>flare<span class="lp-aside-right__item-text--image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/menu-arrow-down.svg" alt=""></span></p>
           </div>
           <div class="lp-aside-right__item lp-aside-right__text--top">
             <div class="lp-aside-right__item-immage">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_aside-03.png" alt="HIGH WAIST">
             </div>
-            <p class="lp-aside-right__item-text">HIGH WAIST<br>straight</p>
+            <p class="lp-aside-right__item-text">HIGH WAIST<br>straight<span class="lp-aside-right__item-text--image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/menu-arrow-down.svg" alt=""></span></p>
           </div>
         </div>
       </aside>

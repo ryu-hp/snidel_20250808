@@ -22,7 +22,7 @@
     letter-spacing: 0.06em;
     line-height: 1.1;
   }
-
+// ページ下部追従
   #SN250811denim .lp-aside--right {
     width: 100%;
     position: fixed;
@@ -35,14 +35,33 @@
   #SN250811denim .lp-aside__contents--right {
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
+    display: grid;
+    max-width: 100%;
+    padding: 0;
   }
   #SN250811denim .lp-aside-right__item {
-    padding: vw(25) vw(15);
+    padding: vw(26) vw(15);
     width: 100%;
+    flex-wrap: nowrap;
+    gap: vw(6);
   }
 
   #SN250811denim .lp-aside-right__item:not(:last-child) {
     border-right: 2px solid $color-black;
+  }
+  #SN250811denim .lp-aside-right__item-text--image {
+    bottom: vw(-6);
+    max-width: vw(24);
+  }
+  #SN250811denim .lp-aside-right__item-immage {
+    width: vw(67);
+  }
+  #SN250811denim .lp-aside-right__item-text {
+    font-size: vw(20);
+    font-weight: $bold;
+    padding-bottom: vw(19);
+    line-height: 1.5;
+    letter-spacing: 0.06em;
   }
 
   // メインコンテナ
