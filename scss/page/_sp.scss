@@ -1,6 +1,12 @@
 @use "../global" as *;
 
 @include mq(md) {
+  // スマホ用の共通ボックステキストスタイル
+  #SN250811denim .common-box-text {
+    font-size: vw(28);
+    padding: vw(6) vw(42);
+    letter-spacing: 0.05em;
+  }
   // メインコンテナ
   #SN250811denim {
     width: 100%;
@@ -25,16 +31,16 @@
   // メインコンテンツ
   #SN250811denim .lp-main-content {
     margin: 0;
-    padding: vw(15);
+    max-width: 100%;
   }
 
   // セクション01
   #SN250811denim .sec-01 {
-    margin-bottom: vw(60);
+    margin-bottom: vw(67);
   }
   
   #SN250811denim .sec-01__top-contents {
-    margin-bottom: vw(60);
+    margin-bottom: 0;
   }
   
   #SN250811denim .sec-01__top-content-image img {
@@ -54,33 +60,37 @@
     margin-top: rem(8);
     margin-bottom: vw(9);
   }
-  
+
+  #SN250811denim .sec-01__middel-contents {
+    align-items: flex-start;
+  }
+
+  #SN250811denim .sec-01__middel-contents-text {
+    width: vw(50);
+    padding-left: vw(34);
+    padding-top: vw(54);
+  }
   #SN250811denim .sec-01__middel-text--top {
-    font-size: vw(24);
+    font-size: vw(56);
     font-weight: $bold;
-    margin-bottom: vw(15);
+    margin-bottom: vw(39);
     text-transform: uppercase;
   }
   
   #SN250811denim .sec-01__middel-text--middel {
-    font-size: vw(32);
-    font-weight: $bold;
-    color: $color-theme;
-    margin-bottom: vw(20);
-    text-transform: uppercase;
-    line-height: 1.2;
+    max-width: 100%;
+    margin-bottom: vw(45);
   }
   
   #SN250811denim .sec-01__middel-text--bottom {
-    font-size: vw(14);
-    color: $color-main_gray;
+    font-size: vw(28);
     line-height: 1.6;
   }
   
   #SN250811denim .sec-01__middel-contents-image {
-    order: 2;
+    margin-top: vw(-58);
   }
-  
+
   #SN250811denim .sec-01__middel-contents-image img {
     width: 100%;
     height: auto;
@@ -94,31 +104,33 @@
   }
   
   #SN250811denim .sec-02__description {
-    font-size: vw(14);
-    line-height: 1.8;
-    color: $color-main_gray;
-    margin-bottom: vw(40);
+    font-size: vw(24);
+    line-height: 2;
+    margin-bottom: vw(140);
   }
   
   #SN250811denim .sec-02__line-up {
-    margin-bottom: vw(30);
-  }
-  
-  #SN250811denim .sec-02__line-up .common-box-text {
-    font-size: vw(14);
-    padding: vw(12) vw(30);
+    margin-bottom: vw(50);
   }
   
   #SN250811denim .sec-02__images {
     gap: vw(30);
   }
   
+  #SN250811denim .sec-02__images-item {
+    gap: vw(13);
+  }
+  #SN250811denim .sec-02__images-item-image {
+    margin-bottom: vw(15);
+    max-width: vw(240);
+  }
+
   #SN250811denim .sec-02__images-item--top {
     margin-bottom: vw(20);
   }
   
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-image {
-    margin-bottom: vw(15);
+    margin-bottom: vw(36);
   }
   
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-image img {
@@ -128,15 +140,20 @@
   }
   
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-text {
-    font-size: vw(14);
+    font-size: vw(24);
   }
   
   #SN250811denim .sec-02__images-item--bottom {
-    gap: vw(30);
+    gap: vw(92);
+  }
+
+  #SN250811denim .sec-02__images-item--bottom .sec-02__images-item {
+    max-width: vw(240);
   }
   
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image {
     margin-bottom: vw(15);
+    max-width: vw(300);
   }
   
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image img {
@@ -146,7 +163,7 @@
   }
   
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-text {
-    font-size: vw(14);
+    font-size: vw(24);
     line-height: 1.4;
   }
 
