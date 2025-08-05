@@ -65,7 +65,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         </div>
       </aside>
       <div class="lp-main-content">
-        <div class="sec-01">
+        <div class="sec-01 js-fadeIn">
           <div class="sec-01__top-contents">
             <div class="sec-01__top-content-image">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_01.jpg" alt="">
@@ -87,7 +87,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="sec-02">
+        <div class="sec-02 js-fadeIn">
           <p class="sec-02__description common-description">
             計算されたシルエット、ボディラインに程良く寄り添う素材<br>
             履くだけでスタイルアップが叶い、自信が持てる<br>
@@ -120,7 +120,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <div class="sec-03 border-top-line">
+        <div id="sfd" class="sec-03 border-top-line">
           <div class="sec-03__tile">
             <p class="common-title">
               stretch<br>
@@ -128,7 +128,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </p>
           </div>
           <div class="sec-03__contents">
-            <div class="sec-03__item">
+            <div class="sec-03__item js-fadeIn">
               <div class="sec-03__size-01">
                 <p class="common-box-text common-box-text--size">153cm<span>SIZE:00</span></p>
               </div>
@@ -161,7 +161,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-03__item">
+            <div class="sec-03__item js-fadeIn">
               <div class="sec-03__size-01">
                 <p class="common-box-text common-box-text--size">159cm<span>SIZE:0</span></p>
               </div>
@@ -194,7 +194,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-03__item">
+            <div class="sec-03__item js-fadeIn">
               <div class="sec-03__size-01">
                 <p class="common-box-text common-box-text--size">165cm<span>SIZE:1</span></p>
               </div>
@@ -258,7 +258,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <div class="sec-03-2 border-top-line">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_12.jpg" >
         </div>
-        <div class="sec-04 border-top-line">
+        <div id="hwf" class="sec-04 border-top-line">
           <div class="sec-04__tile">
             <p class="common-title">
               high waist<br>
@@ -266,7 +266,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </p>
           </div>
           <div class="sec-04__contents">
-            <div class="sec-04__item">
+            <div class="sec-04__item js-fadeIn">
               <div class="sec-04__size-01">
                 <p class="common-box-text common-box-text--size">153cm<span>SIZE:0</span></p>
               </div>
@@ -299,7 +299,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-04__item">
+            <div class="sec-04__item js-fadeIn">
               <div class="sec-04__size-01">
                 <p class="common-box-text common-box-text--size">159cm<span>SIZE:0</span></p>
               </div>
@@ -332,7 +332,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-04__item">
+            <div class="sec-04__item js-fadeIn">
               <div class="sec-04__size-01">
                 <p class="common-box-text common-box-text--size">165cm<span>SIZE:1</span></p>
               </div>
@@ -365,7 +365,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-04__item">
+            <div class="sec-04__item js-fadeIn">
               <div class="sec-04__size-01">
                 <p class="common-box-text common-box-text--size">170cm<span>SIZE:2</span></p>
               </div>
@@ -399,7 +399,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
             </div>
           </div>
-          <div class="sec-04__bottom-contents">
+          <div class="sec-04__bottom-contents js-fadeIn">
             <div class="sec-04__bottom-content sec-04__bottom-content--top">
               <p class="sec-04__bottom-content-text sec-04__bottom-content-text--top">
                 ストレッチ性のある<br>生地を使用し、<br>程良くボディラインに添う<br>美シルエット
@@ -424,7 +424,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <div class="sec-04-2">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_19.jpg" alt="バックヨーク部分は高め位置に切り替えを入れ">
         </div>
-        <div class="sec-05 border-top-line">
+        <div id="hws" class="sec-05 border-top-line">
           <div class="sec-05__tile">
             <p class="common-title">
               high waist<br>
@@ -432,7 +432,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </p>
           </div>
           <div class="sec-05__contents">
-            <div class="sec-05__item">
+            <div class="sec-05__item js-fadeIn">
               <div class="sec-05__size-01">
                 <p class="common-box-text common-box-text--size">153cm<span>SIZE:0</span></p>
               </div>
@@ -465,7 +465,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-05__item">
+            <div class="sec-05__item js-fadeIn">
               <div class="sec-05__size-01">
                 <p class="common-box-text common-box-text--size">159cm<span>SIZE:0</span></p>
               </div>
@@ -498,7 +498,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-05__item">
+            <div class="sec-05__item js-fadeIn">
               <div class="sec-05__size-01">
                 <p class="common-box-text common-box-text--size">165cm<span>SIZE:1</span></p>
               </div>
@@ -531,7 +531,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 <!-- /Swiper -->
               </div>
             </div>
-            <div class="sec-05__item">
+            <div class="sec-05__item js-fadeIn">
               <div class="sec-05__size-01">
                 <p class="common-box-text common-box-text--size">170cm<span>SIZE:2</span></p>
               </div>
@@ -565,7 +565,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
             </div>
           </div>
-          <div class="sec-05__bottom-contents">
+          <div class="sec-05__bottom-contents js-fadeIn">
             <div class="sec-05__bottom-content sec-05__bottom-content--top">
               <p class="sec-05__bottom-content-text">
                 足首が少し見える丈で設定し、<br>重心が上がって見えるデザイン
@@ -823,24 +823,24 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       </div>
       <aside class="lp-aside lp-aside--right">
         <div class="lp-aside__contents lp-aside__contents--right">
-          <div class="lp-aside-right__item lp-aside-right__text--top">
+          <a href="#sfd" class="lp-aside-right__item lp-aside-right__text--top">
             <div class="lp-aside-right__item-immage">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_aside-01.png" alt="STRETCH">
             </div>
             <p class="lp-aside-right__item-text">stretch<br>flare denim<span class="lp-aside-right__item-text--image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/menu-arrow-down.svg" alt=""></span></p>
-          </div>
-          <div class="lp-aside-right__item lp-aside-right__text--top">
+          </a>
+          <a href="#hwf" class="lp-aside-right__item lp-aside-right__text--top">
             <div class="lp-aside-right__item-immage">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_aside-02.png" alt="HIGH WAIST">
             </div>
             <p class="lp-aside-right__item-text">HIGH WAIST<br>flare<span class="lp-aside-right__item-text--image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/menu-arrow-down.svg" alt=""></span></p>
-          </div>
-          <div class="lp-aside-right__item lp-aside-right__text--top">
+          </a>
+          <a href="#hws" class="lp-aside-right__item lp-aside-right__text--top">
             <div class="lp-aside-right__item-immage">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_aside-03.png" alt="HIGH WAIST">
             </div>
             <p class="lp-aside-right__item-text">HIGH WAIST<br>straight<span class="lp-aside-right__item-text--image"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/menu-arrow-down.svg" alt=""></span></p>
-          </div>
+          </a>
         </div>
       </aside>
     </div>

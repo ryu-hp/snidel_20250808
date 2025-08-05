@@ -1,3 +1,11 @@
 @use "../global" as * ;
 
-
+.js-fadeIn {
+  opacity: 0 ;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+}
+.js-fadeIn.visible {
+  opacity: 1 ;
+  visibility: visible;    
+}

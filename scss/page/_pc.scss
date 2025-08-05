@@ -791,6 +791,9 @@
   .sec-06__images .swiper {
     width: 100%;
   }
+  .sec-06__images .swiper-wrapper {
+    transition-timing-function: linear;
+  }
   .sec-06__images .swiper-slide {
     width: calc(330 / 750 * 100%);
   }
