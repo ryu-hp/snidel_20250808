@@ -142,11 +142,16 @@
     top: 0;
     height: 100vh;
     z-index: 100;
-    width: calc((100% - 480px ) / 2);
+    width: calc((100% - (480 * 100vw / 1400) ) / 2);
     background: $color-bg_side;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media screen and (min-width:1400px) {
+    .lp-aside {
+      width: calc((100% - 480px ) / 2);
+    }
   }
   .lp-aside__contents {
     padding: 0 rem(20);
@@ -246,10 +251,16 @@
   // メインコンテンツ
   .lp-main-content {
     flex: 1;
-    max-width: 480px;
+    max-width: calc(480 * 100vw / 1400);
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+  }
+  
+  @media screen and (min-width:1400px) {
+    .lp-main-content {
+      max-width: 480px;
+    }
   }
 
   // セクション01

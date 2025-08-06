@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
-      speed: 2000,
+      speed: 6000,
       autoplay: {
         delay: 0,
         disableOnInteraction: false,
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
-      speed: 2000,
+      speed: 6000,
       autoplay: {
         delay: 0,
         disableOnInteraction: false,
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
       slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
-      speed: 2000,
+      speed: 6000,
       autoplay: {
         delay: 0,
         disableOnInteraction: false,
