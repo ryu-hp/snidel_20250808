@@ -67,9 +67,9 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       <div class="lp-main-content">
         <div class="sec-01 js-fadeIn">
           <div class="sec-01__top-contents">
-            <div class="sec-01__top-content-image">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-01__top-content-image">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_01.jpg" alt="">
-            </div>
+            </a>
             <div class="sec-01__top-content-text">
               <p class="sec-01__top-content-text--top">2025</p>
               <span></span>
@@ -82,9 +82,9 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <p class="sec-01__middel-text sec-01__middel-text--middel"><img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/text-style_up_pants.svg" alt="style up pants"></p>
               <p class="sec-01__middel-text sec-01__middel-text--bottom">履くだけでスタイルアップが叶う！</p>
             </div>
-            <div class="sec-01__middel-contents-image">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-01__middel-contents-image">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_02.jpg" alt="">
-            </div>
+            </a>
           </div>
         </div>
         <div class="sec-02 js-fadeIn">
@@ -99,22 +99,22 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
           <div class="sec-02__images">
             <div class="sec-02__images-item sec-02__images-item--top">
-              <div class="sec-02__images-item-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-02__images-item-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_03.jpg" alt="ストレッチフレアデニムパンツ">
-              </div>
+              </a>
               <p class="sec-02__images-item-text">ストレッチフレアデニムパンツ</p>
             </div>
             <div class="sec-02__images-item--bottom">
               <div class="sec-02__images-item sec-02__images-item--left">
-                <div class="sec-02__images-item-image">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-02__images-item-image">
                   <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_04.jpg" alt="［STYLE UP PANTS］ハイウエストフレアパンツ">
-                </div>
+                </a>
                 <p class="sec-02__images-item-text">［STYLE UP PANTS］<br>ハイウエストフレアパンツ</p>
               </div>
               <div class="sec-02__images-item sec-02__images-item--right">
-                <div class="sec-02__images-item-image">
+                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-02__images-item-image">
                   <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_05.jpg" alt="［STYLE UP PANTS］ハイウエストストレートパンツ">
-                </div>
+                </a>
                 <p class="sec-02__images-item-text">［STYLE UP PANTS］<br>ハイウエストストレートパンツ</p>
               </div>
             </div>
@@ -139,22 +139,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_06-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -172,22 +184,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_07-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -205,22 +229,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_08-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -233,31 +269,31 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <p class="sec-03__bottom-content-text">
                 裾に向かって美しく広がる<br>フレアラインで美脚効果
               </p>
-              <div class="sec-03__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-03__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_09.jpg" alt="裾に向かって美しく広がるフレアラインで美脚効果">
-              </div>
+              </a>
             </div>
             <div class="sec-03__bottom-content sec-03__bottom-content--middle">
               <p class="sec-03__bottom-content-text">
                 腰位置高く魅せる<br>ハイウエスト仕様
               </p>
-              <div class="sec-03__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-03__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_10.jpg" alt="腰位置高く魅せるハイウエスト仕様">
-              </div>
+              </a>
             </div>
             <div class="sec-03__bottom-content sec-03__bottom-content--bottom">
               <p class="sec-03__bottom-content-text">
                 バックポケットには<br>オリジナル刺繍を施し<br>ヒップ位置を高く見せる
               </p>
-              <div class="sec-03__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-03__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_11.jpg" alt="バックポケットにはオリジナル刺繍を施しヒップ位置を高く見せる">
-              </div>
+              </a>
             </div>
           </div>
         </div>
-        <div class="sec-03-2 border-top-line">
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-03-2 border-top-line fadeInZoom">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_12.jpg" >
-        </div>
+        </a>
         <div id="hwf" class="sec-04 border-top-line">
           <div class="sec-04__tile">
             <p class="common-title">
@@ -277,22 +313,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_13-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -310,22 +358,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_14-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -343,22 +403,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_15-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -376,22 +448,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_16-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -407,23 +491,23 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <p class="sec-04__bottom-content-text sec-04__bottom-content-text--bottom">
                 膝下から緩やかに広がる<br>フレアシルエットで<br>美脚を叶える
               </p>
-              <div class="sec-04__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_17.jpg" alt="ストレッチ性のある生地を使用し、程良くボディラインに添う美シルエット">
-              </div>
+              </a>
             </div>
             <div class="sec-04__bottom-content sec-04__bottom-content--bottom">
               <p class="sec-04__bottom-content-text">
                 バックヨーク部分は<br>高め位置に切り替えを入れ、<br>ヒップ位置を高く見せる
               </p>
-              <div class="sec-04__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_18.jpg" alt="腰位置高く魅せるハイウエスト仕様">
-              </div>
+              </a>
             </div>
           </div>
         </div>
-        <div class="sec-04-2">
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04-2 fadeInZoom">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_19.jpg" alt="バックヨーク部分は高め位置に切り替えを入れ">
-        </div>
+        </a>
         <div id="hws" class="sec-05 border-top-line">
           <div class="sec-05__tile">
             <p class="common-title">
@@ -443,22 +527,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-1.jpg" alt="STRETCH STRAIGHT DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-1.jpg" alt="STRETCH STRAIGHT DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-2.jpg" alt="STRETCH STRAIGHT DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-2.jpg" alt="STRETCH STRAIGHT DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-3.jpg" alt="STRETCH STRAIGHT DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-3.jpg" alt="STRETCH STRAIGHT DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-1.jpg" alt="STRETCH STRAIGHT DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-1.jpg" alt="STRETCH STRAIGHT DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-2.jpg" alt="STRETCH STRAIGHT DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-2.jpg" alt="STRETCH STRAIGHT DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-3.jpg" alt="STRETCH STRAIGHT DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_20-3.jpg" alt="STRETCH STRAIGHT DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -476,22 +572,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_21-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -509,22 +617,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_22-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -542,22 +662,34 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <div class="swiper-wrapper">
                     <!-- スライド -->
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-1.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-1.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-2.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-2.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                     <div class="swiper-slide">
-                      <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-3.jpg" alt="STRETCH FLARE DENIM">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_23-3.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -570,28 +702,27 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <p class="sec-05__bottom-content-text">
                 足首が少し見える丈で設定し、<br>重心が上がって見えるデザイン
               </p>
-              <div class="sec-05__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-05__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_24.jpg" alt="ストレッチ性のある生地を使用し、程良くボディラインに添う美シルエット">
-              </div>
+              </a>
             </div>
             <div class="sec-05__bottom-content sec-05__bottom-content--middle">
               <p class="sec-05__bottom-content-text">
                 ストレッチ性のある<br>生地を使用し、<br>程良くボディラインに<br>添う美シルエット
               </p>
-              <div class="sec-05__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-05__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_25.jpg" alt="腰位置高く魅せるハイウエスト仕様">
-              </div>
+              </a>
             </div>
             <div class="sec-05__bottom-content sec-05__bottom-content--bottom">
               <p class="sec-05__bottom-content-text">
                 バックヨーク部分は<br>高め位置に切り替えを入れ、<br>ヒップ位置を高く魅せる
               </p>
-              <div class="sec-05__bottom-content-image">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-05__bottom-content-image">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_26.jpg" alt="腰位置高く魅せるハイウエスト仕様">
-              </div>
+              </a>
             </div>
           </div>
-            
         </div>
         <div class="sec-06">
           <div class="sec-06__tile">
@@ -612,73 +743,73 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- スライド -->
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-01.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">159cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-02.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">159cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-03.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-04.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">153cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-05.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-06.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">159cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-07.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-08.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">153cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-09.jpg" alt="STRETCH FLARE DENIM">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
@@ -699,41 +830,41 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   <!-- スライド -->
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-01.jpg" alt="HIGH WAIST FLARE">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">150cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-02.jpg" alt="HIGH WAIST FLARE">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">162cm  SIZE:1</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-03.jpg" alt="HIGH WAIST FLARE">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">153cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-04.jpg" alt="HIGH WAIST FLARE">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">167cm  SIZE:0</p>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="sec-06-item">
-                      <div class="sec-06-item__image">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-05.jpg" alt="HIGH WAIST FLARE">
-                      </div>
+                      </a>
                       <p class="sec-06-item__text">150cm  SIZE:0</p>
                     </div>
                   </div>
@@ -754,57 +885,57 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     <!-- スライド -->
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-01.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">162cm  SIZE:0</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-02.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">165cm  SIZE:1</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-03.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">159cm  SIZE:0</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-04.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">165cm  SIZE:0</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-05.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">165cm  SIZE:1</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-06.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">150cm  SIZE:0</p>
                       </div>
                     </div>
                     <div class="swiper-slide">
                       <div class="sec-06-item">
-                        <div class="sec-06-item__image">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-07.jpg" alt="HIGH WAIST STRAIGHT">
-                        </div>
+                        </a>
                         <p class="sec-06-item__text">162cm  SIZE:0</p>
                       </div>
                     </div>
@@ -816,7 +947,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
           <%-- btnArea --%>
           <aside class="btnArea">
-            <div class="btnArea_all"><a href="<%= Constants.PATH_ROOT %>（指定のパスが入ります）">ALL ITEM CHECK</a></div>
+            <div class="btnArea_all"><a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273">ALL ITEM CHECK</a></div>
           </aside>
           <%-- btnArea --%>
         </div>

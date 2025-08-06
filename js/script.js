@@ -127,6 +127,19 @@ $(document).ready(function() {
         $(this).addClass('visible');
       }
     });
+
+    // .fadeInZoomアニメーション
+    $('.fadeInZoom').each(function(){
+      let objectPosition = $(this).offset().top;
+      let windowTop = $(window).scrollTop();
+      let windowHeight = $(window).height();
+      
+      if(windowTop > objectPosition - windowHeight + 120){
+        if(!$(this).hasClass('view')){
+          $(this).addClass('view');
+        }
+      }
+    });
   }
 
   // 初回実行
