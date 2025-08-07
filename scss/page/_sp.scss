@@ -1,6 +1,13 @@
 @use "../global" as *;
 
 @include mq(md) {
+  .header-brand-nav {
+    display: none;
+  }
+  #SN250811denim a:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
   // スマホ用の共通ボックステキストスタイル
   #SN250811denim .common-box-text {
     font-size: vw(28);
@@ -9,10 +16,9 @@
   }
   #SN250811denim .common-box-text--size {
     font-size: vw(30);
-    padding-left: vw(34);
-    padding-right: vw(36);
-    padding-bottom: vw(8);
     line-height: 1;
+    padding: vw(8) vw(10);
+    max-width:vw(280);
   }
   // 共通タイトル
   #SN250811denim .common-title {
@@ -22,6 +28,12 @@
     letter-spacing: 0.06em;
     line-height: 1.1;
   }
+  // スライド 
+
+  #SN250811denim .main-slider .swiper-slide {
+    margin-right: vw(10);
+  }
+
 // ページ下部追従
   #SN250811denim .lp-aside--right {
     width: 100%;
@@ -52,7 +64,7 @@
   }
 
   #SN250811denim .lp-aside-right__item:not(:last-child) {
-    border-right: 2px solid $color-black;
+    border-right: 1px solid $color-black;
   }
   #SN250811denim .lp-aside-right__item-text--image {
     bottom: vw(-6);
@@ -96,9 +108,6 @@
   }
 
   // セクション01
-  #SN250811denim .sec-01 {
-    margin-bottom: vw(67);
-  }
   
   #SN250811denim .sec-01__top-contents {
     margin-bottom: 0;
@@ -112,17 +121,28 @@
   
   #SN250811denim .sec-01__top-content-text {
     font-size: vw(24);
+    padding-top: vw(1220);
+    margin-left: vw(25);
+  }
+  #SN250811denim .sec-01__top-content-text--top {
+    font-size: vw(24);
+    letter-spacing: 0.05em;
   }
   
   #SN250811denim .sec-01__top-content-text span {
     display: block;
-    width: vw(2);
-    height: vw(32);
-    margin-top: rem(8);
-    margin-bottom: vw(9);
+    width: 1px;
+    height: vw(36);
+    margin-top: vw(8);
+    margin-bottom: vw(11);
+    margin-left: vw(5);
+  }
+  #SN250811denim .sec-01__top-content-text--bottom {
+    letter-spacing: 0.05em;
   }
 
   #SN250811denim .sec-01__middel-contents {
+    margin-bottom: vw(67);
     align-items: flex-start;
   }
 
@@ -136,6 +156,8 @@
     font-weight: $bold;
     margin-bottom: vw(39);
     text-transform: uppercase;
+    margin-left: vw(-3);
+    letter-spacing: 0.02em;
   }
   
   #SN250811denim .sec-01__middel-text--middel {
@@ -173,6 +195,12 @@
   
   #SN250811denim .sec-02__line-up {
     margin-bottom: vw(50);
+  }
+
+  #SN250811denim .sec-02__line-up .common-box-text {
+    font-size: vw(28);
+    padding: vw(10) vw(10);
+    max-width:vw(200);
   }
   
   #SN250811denim .sec-02__images {
@@ -230,7 +258,7 @@
     font-size: vw(24);
     line-height: 1.4;
     line-height: 1.8;
-    margin-top: rem(-6);
+    margin-top: vw(-6);
   }
 
 
@@ -279,25 +307,20 @@
     margin-top: vw(-95);
   }
 
-  // セクション03-2
-  #SN250811denim .sec-03-2 {
-    margin-bottom: vw(60);
-  }
   
-
   // セクション04
   #SN250811denim .sec-04 {
     margin-bottom: vw(148);
-    padding-top: vw(18.5);
+    padding-top: vw(80);
   }
   
   #SN250811denim .sec-04__contents {
-    gap: vw(101);
-    margin-bottom: vw(123);
+    gap: vw(100);
+    margin-bottom: vw(120);
   }
   
   #SN250811denim .sec-04__size-01 {
-    margin-bottom: vw(28);
+    margin-bottom: vw(30);
     padding-left: vw(40);
   }
   
@@ -351,10 +374,14 @@
     margin-bottom: vw(180);
     padding-top: vw(81);
   }
+
+  #SN250811denim .sec-05__tile .common-title {
+    margin-bottom: vw(62);
+  }
   
   #SN250811denim .sec-05__contents {
-    gap: vw(100);
-    margin-bottom: vw(122);
+    gap: vw(101);
+    margin-bottom: vw(121);
   }
   
   #SN250811denim .sec-05__item {
@@ -389,13 +416,19 @@
   #SN250811denim .sec-05__bottom-content--top .sec-05__bottom-content-text {
     top: 32.9%;
   }
-
   #SN250811denim .sec-05__bottom-content--top .sec-05__bottom-content-text {
     margin-bottom: vw(50);
   }
-
+  
   #SN250811denim .sec-05__bottom-content--top {
-    margin-bottom: vw(51);
+    margin-bottom: vw(50);
+  }
+  
+  #SN250811denim .sec-05__bottom-content--middle .sec-05__bottom-content-text {
+    left: 62%;
+  }
+  #SN250811denim .sec-05__bottom-content--bottom .sec-05__bottom-content-text {
+    left: 10.1%;
   }
 
   #SN250811denim .sec-05__bottom-content--middle .sec-05__bottom-content-image {
@@ -404,7 +437,7 @@
 
   #SN250811denim .sec-05__bottom-content--bottom .sec-05__bottom-content-image {
     margin-right: vw(40);
-    margin-top: vw(-94);
+    margin-top: vw(-95);
   }
 
   // セクション06
@@ -419,8 +452,8 @@
   }
 
   #SN250811denim .sec-06__contents {
-    gap: vw(109);
-    margin-bottom: rem(111);
+    gap: vw(108);
+    margin-bottom: vw(111);
   }
 
   #SN250811denim .sec-06__content {
@@ -429,16 +462,32 @@
   
   #SN250811denim .sec-06__text {
     font-size: vw(29.3);
-    margin-bottom: vw(18);
-    font-weight: $bold;
+    margin-bottom: vw(20);
     padding-left: vw(39);
+    letter-spacing: 0.075em;
   }
   
-  #SN250811denim .sec-06__images .swiper {
+  // CSS Belt Animation for SP
+  #SN250811denim .belt {
+    overflow: hidden;
     width: 100%;
   }
-  #SN250811denim .sec-06__images .swiper-wrapper {
-    transition-timing-function: linear;
+  
+  #SN250811denim .belt__track {
+    display: flex;
+    gap: vw(20);
+    width: max-content;
+    animation: belt-scroll 30s linear infinite;
+    will-change: transform;
+  }
+  
+  #SN250811denim .belt__track--reverse {
+    animation: belt-scroll-reverse 30s linear infinite;
+  }
+  
+  #SN250811denim .belt__item {
+    flex: 0 0 auto;
+    max-width: vw(330.2);
   }
 
   
@@ -455,6 +504,7 @@
   }
   #SN250811denim .btnArea_all a {
     font-size: vw(32);
+    letter-spacing: 0.05em;
   }
 
 }

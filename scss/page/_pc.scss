@@ -67,12 +67,15 @@
 		display: inline-block;
 		color: $color-black;
 		font-size: rem(17);
-		line-height: calc(32 / 28);
 		font-weight: $bold;
-		padding: rem(4) rem(26) rem(3);
-		border: 2px solid $color-black;
+		border: 1px solid $color-black;
     letter-spacing: 0.04em;
     font-family: $second-font-family;
+    max-width: rem(180);
+    width: 100%;
+    text-align: center;
+    padding: rem(5) rem(16);
+    line-height: 1;
 	}
   .common-box-text--size {
     letter-spacing: 0;
@@ -80,6 +83,11 @@
     font-weight: normal;
     padding: rem(2) rem(31) rem(3) ;
     letter-spacing: 0;
+    max-width: rem(180);
+    width: 100%;
+    text-align: center;
+    padding: rem(5) rem(16);
+    line-height: 1;
   }
   .common-box-text span {
     display: inline-block;
@@ -100,7 +108,7 @@
 	}
 	// 共通ボーダー
 	.border-top-line {
-		border-top: 2px solid $color-black;
+		border-top: 1px solid $color-black;
 	}
 	// Swiperの基本スタイル
 	.swiper {
@@ -122,6 +130,9 @@
 			height: 100%;
 			object-fit: cover;
 	}
+  .main-slider .swiper-slide {
+    margin: 0 rem(6.4);
+  }
 
   // LPコンテンツ全体
   .lp-contents {
@@ -160,23 +171,26 @@
   }
   
   .lp-aside-left__text {
-    font-weight: $bold;
+    font-weight: $medium
   }
   .lp-aside__contents--left {
-    max-width: 320px;
+    max-width: rem(320);
+    padding-bottom: rem(15);
   }
   
   .lp-aside-left__text--top {
-    font-size: rem(28);
+    font-size: rem(34);
     line-height: 1;
     text-transform: uppercase;
     font-family: $second-font-family;
     letter-spacing: 0.04em;
     margin-left: rem(-2);
+    margin-bottom: rem(25);
   }
   
   .lp-aside-left__text--middle {
-    max-width: 280px;
+    max-width: rem(280);
+    margin-bottom: rem(30);
   }
   
   .lp-aside-left__text--bottom {
@@ -185,9 +199,6 @@
     letter-spacing: 0.15em;
   }
   
-  .lp-aside-left__text:not(:last-child) {
-    margin-bottom: rem(30);
-  }
 
   // 右サイドバー
   .lp-aside--right {
@@ -201,15 +212,21 @@
     align-items: flex-s;
     height: 100%;
     gap: rem(40);
-    max-width: 245px;
-    padding-bottom: rem(7);
+    max-width: rem(245);
+    padding-bottom: rem(20);
   }
   
   .lp-aside-right__item {
     display: flex;
     align-items: center;
-    gap: rem(15);
+    gap: rem(20);
     flex-wrap: wrap;
+  }
+  .lp-aside-right__item:nth-child(2) {
+    gap: rem(25);
+  }
+  .lp-aside-right__item:nth-child(3) {
+    gap: rem(24);
   }
   
   .lp-aside-right__item-immage {
@@ -225,7 +242,7 @@
   .lp-aside-right__item-text {
     font-size: rem(16);
     line-height: calc(22 / 16);
-    padding-bottom: rem(22);
+    padding-bottom: rem(18);
     letter-spacing: 0.04em;
     font-weight: $medium;
     color: $color-black;
@@ -239,8 +256,8 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 0;
-    max-width: rem(24);
+    bottom: rem(2);
+    max-width: rem(13);
     width: 100%;
   }
 
@@ -255,18 +272,14 @@
   
   @media screen and (min-width:1400px) {
     .lp-main-content {
-      max-width: 480px;
+      max-width: rem(480);
     }
   }
 
   // セクション01
-  .sec-01 {
-    margin-bottom: rem(45);
-  }
-  
   .sec-01__top-contents {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   
   .sec-01__top-content-image {
@@ -290,30 +303,39 @@
     display: flex;
     align-items: flex-end;
     margin: 0 auto;
+    margin-left: rem(16);
     line-height: 1;
-    padding-bottom: rem(48);
+    // padding-bottom: rem(48);
+    padding-top: rem(78);
   }
   
   .sec-01__top-content-text--top {
-    letter-spacing: -0.1em;
+    letter-spacing: -0.04em;
+    font-size: rem(17);
+    
   }
 
   .sec-01__top-content-text span {
     display: block;
-    width: 2px;
-    height: rem(23);
+    width: 1px;
+    height: rem(22);
     background: $color-black;
-    margin-left: 1px;
-    margin-top: rem(9);
-    margin-bottom: rem(6);
+    margin-left: rem(4);
+    margin-top: rem(8);
+    margin-bottom: rem(8);
   }
+
+  .sec-01__top-content-text--bottom {
+    letter-spacing: 0.06em;
+  }
+
   .sec-01__middel-contents {
     letter-spacing: 0;
-  }
-  
-  .sec-01__middel-contents {
+    position: relative;
+    z-index: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: rem(45);
   }
   
   .sec-01__middel-contents-text {
@@ -324,22 +346,24 @@
 		position: relative;
 		z-index: 1;
 		box-sizing: border-box;
-		padding-left: rem(20)
+		padding-left: rem(21);
+    padding-top: rem(35);
   }
   
   .sec-01__middel-text--top {
-    font-size: rem(31);
+    font-size: rem(35);
+    letter-spacing: 0.03em;
     font-weight: $bold;
     font-family: $second-font-family;
-    margin-bottom: rem(30);
+    margin-bottom: rem(25);
     line-height: 1;
     text-transform: uppercase;
   }
   
   .sec-01__middel-text--middel {
-    margin-bottom: rem(26);
+    margin-bottom: rem(24);
 		width: 100%;
-    max-width: 280px;
+    max-width: rem(280);
   }
   
   .sec-01__middel-text--bottom {
@@ -362,7 +386,7 @@
 
   // セクション02
   .sec-02 {
-    margin-bottom: rem(64);
+    margin-bottom: rem(66);
     text-align: center;
   }
   
@@ -373,22 +397,26 @@
   
   .sec-02__line-up {
     text-align: center;
-    margin-bottom: rem(32);
+    margin-bottom: rem(33);
   }
 
   .sec-02__line-up .common-box-text {
     text-transform: uppercase;
+    font-size: rem(18);
+    letter-spacing: 0.06em;
+    padding: rem(5) rem(27);
+    line-height: 1;
   }
     
   .sec-02__images-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: rem(20);
+    gap: rem(19);
   }
   
   .sec-02__images-item--top {
-    margin-bottom: rem(22);
+    margin-bottom: rem(23);
   }
   
   .sec-02__images-item-image {
@@ -403,24 +431,25 @@
   
   .sec-02__images-item-text {
     font-size: rem(15);
+    z-index: 1;
   }
   
   .sec-02__images-item--bottom {
     display: flex;
     justify-content: center;
-    gap: rem(24);
+    gap: rem(11);
   }
   
   .sec-02__images-item--bottom .sec-02__images-item {
-    max-width: 188px;
+    max-width: rem(200);
     width: 100%;
   }
 
 
   // セクション03
   .sec-03 {
-    margin-bottom: rem(95);
-    padding-top: rem(50);
+    margin-bottom: rem(96);
+    padding-top: rem(52);
   }
   
   .sec-03__contents {
@@ -462,6 +491,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 1;
   }
   .sec-03__bottom-content--top .sec-03__bottom-content-text {
     top: 46%;
@@ -478,7 +508,7 @@
   .sec-03__bottom-content-text::after {
     display: block;
     content: "";
-    height: 2px;
+    height: 1px;
     background-color: $color-black;
     position: absolute;
   }
@@ -524,7 +554,7 @@
   }
 
   .sec-03__bottom-content--top {
-    margin-bottom: rem(33);
+    margin-bottom: rem(36);
   }
 
   // セクション03-2
@@ -540,7 +570,7 @@
 
   // セクション04
   .sec-04 {
-    margin-bottom: rem(95);
+    margin-bottom: rem(92);
     padding-top: rem(50);
   }
   
@@ -582,6 +612,7 @@
     position: absolute;
     font-size: rem(15);
     letter-spacing: 0.07em;
+    z-index: 1;
   }
 
   .sec-04__bottom-content-text{
@@ -595,14 +626,14 @@
   }
   .sec-04__bottom-content--bottom .sec-04__bottom-content-text {
     left: calc(60 / 750 * 100%);
-    top: 47%;
+    top: 51.9%;
     transform: translateY(-50%);
   }
 
+  display: block;
   .sec-04__bottom-content-text::after {
-    display: block;
     content: "";
-    height: 2px;
+    height: 1px;
     background-color: $color-black;
     position: absolute;
   }
@@ -616,7 +647,7 @@
   .sec-04__bottom-content--bottom .sec-04__bottom-content-text::after {
     width: 63%;
     left: 102%;
-    top: 66%;
+    top: 43%;
     transform: rotate(-29deg);
     transform-origin: left;
   }
@@ -654,14 +685,18 @@
   // セクション05
   .sec-05 {
     margin-bottom: rem(116);
-    padding-top: rem(53);
+    padding-top: rem(52);
+  }
+
+  .sec-05__tile .common-title {
+    margin-bottom: rem(39);
   }
   
   .sec-05__contents {
     display: flex;
     flex-direction: column;
-    gap: rem(62);
-    margin-bottom: rem(78);
+    gap: rem(63);
+    margin-bottom: rem(76);
   }
   
   .sec-05__item {
@@ -700,6 +735,7 @@
     position: absolute;
     font-size: rem(15);
     letter-spacing: 0.075em;
+    z-index: 1;
   }
   .sec-05__bottom-content--top .sec-05__bottom-content-text {
     left: calc(60 / 750 * 100%);
@@ -720,7 +756,7 @@
   .sec-05__bottom-content-text::after {
     display: block;
     content: "";
-    height: 2px;
+    height: 1px;
     background-color: $color-black;
     position: absolute;
   }
@@ -773,36 +809,68 @@
     padding-bottom: rem(76);
   }
   .sec-06__tile .common-title {
-    font-family: $second-font-family;
+    margin-bottom: rem(41);
   }
   .sec-06__contents {
     display: flex;
     flex-direction: column;
-    gap: rem(71);
+    gap: rem(73);
     margin-bottom: rem(72);
   }
   
   .sec-06__content {
-    padding-top: rem(11);
+    padding-top: rem(14);
   }
   
   .sec-06__text {
     font-size: rem(19);
+    font-weight: $bold;
     padding-left: rem(26);
     line-height: 1;
-    margin-bottom: rem(15);
+    margin-bottom: rem(12);
     font-family: $second-font-family;
-    letter-spacing: 0.074em;
+    letter-spacing: 0.064em;
   }
   
-  .sec-06__images .swiper {
+  // CSS Belt Animation
+  .belt {
+    overflow: hidden;
     width: 100%;
   }
-  .sec-06__images .swiper-wrapper {
-    transition-timing-function: linear;
+  
+  .belt__track {
+    display: flex;
+    gap: rem(12.8);
+    width: max-content;
+    animation: belt-scroll 40s linear infinite;
+    will-change: transform;
   }
-  .sec-06__images .swiper-slide {
-    width: calc(330 / 750 * 100%);
+  .belt__track--reverse {
+    animation: belt-scroll-reverse 40s linear infinite;
+  }
+  
+  .belt__item {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: rem(211);
+  }
+  
+  @keyframes belt-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
+  @keyframes belt-scroll-reverse {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+  }
+  
+  // アクセシビリティ：動きを抑制したい人には止める
+  @media (prefers-reduced-motion: reduce) {
+    .belt__track,
+    .belt__track--reverse {
+      animation: none;
+    }
   }
   
   .sec-06-item {
@@ -845,7 +913,7 @@
     align-items: center;
     font-size: rem(20);
     font-weight: $bold;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.065em;
     line-height: 1;
     color: $color-black;
     font-family: $second-font-family;

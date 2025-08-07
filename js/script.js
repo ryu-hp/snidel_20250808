@@ -5,17 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
   sec03Swipers.forEach(function(element) {
     new Swiper(element, {
       slidesPerView: 'auto',
-      spaceBetween: 15,
       loop: true,
       centeredSlides: true,
+      speed: 1300,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-      },
-      breakpoints: {
-        767: {
-          spaceBetween: 20,
-        },
       },
     });
   });
@@ -25,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
   sec04Swipers.forEach(function(element) {
     new Swiper(element, {
       slidesPerView: 'auto',
-      spaceBetween: 20,
       loop: true,
       centeredSlides: true,
+      speed: 1300,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
@@ -40,79 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
   sec05Swipers.forEach(function(element) {
     new Swiper(element, {
       slidesPerView: 'auto',
-      spaceBetween: 10,
+      // spaceBetween: '10rem',
       loop: true,
       centeredSlides: true,
+      speed: 1300,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
       },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
     });
   });
 
-  // セクション06のSwiper
-  const sec06SfdSwiper = document.querySelector('.sec06-sfd-swiper');
-  if (sec06SfdSwiper) {
-    new Swiper(sec06SfdSwiper, {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      loop: true,
-      speed: 6000,
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-        reverseDirection: false,
-      },
-      allowTouchMove: false,
-      freeMode: true,
-      freeModeMomentum: false,
-    });
-  }
-
-  const sec06HwfSwiper = document.querySelector('.sec06-hwf-swiper');
-  if (sec06HwfSwiper) {
-    new Swiper(sec06HwfSwiper, {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      loop: true,
-      speed: 6000,
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-        reverseDirection: true,
-      },
-      allowTouchMove: false,
-      freeMode: true,
-      freeModeMomentum: false,
-    });
-  }
-
-  const sec06HwsSwiper = document.querySelector('.sec06-hws-swiper');
-  if (sec06HwsSwiper) {
-    new Swiper(sec06HwsSwiper, {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      loop: true,
-      speed: 6000,
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-        reverseDirection: false,
-      },
-      allowTouchMove: false,
-      freeMode: true,
-      freeModeMomentum: false,
-    });
-  }
-
+  // セクション06はCSSアニメーションに変更したため、Swiper初期化は削除
   
 });
 

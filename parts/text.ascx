@@ -29,7 +29,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <%-- ▽ 編集可能領域：コンテンツ ▽ --%>
 <!-- コンテンツ部分用CSS読み込みここから -->
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2025/0811/css/style.css" />
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2025/0811/css/style.css?202508080721" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <!-- add fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,14 +86,14 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_02.jpg" alt="">
             </a>
           </div>
-        </div>
-        <div class="sec-02 js-fadeIn">
           <p class="sec-02__description common-description">
             計算されたシルエット、ボディラインに程良く寄り添う素材<br>
             履くだけでスタイルアップが叶い、自信が持てる<br>
             SNIDELデザイナーが本気で考えた<br>
             今シーズンおすすめのパンツ3型をご紹介
           </p>
+        </div>
+        <div class="sec-02 js-fadeIn">
           <div class="sec-02__line-up">
             <p class="common-box-text">line up</p>
           </div>
@@ -134,7 +134,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-03__images">
                 <!-- Swiper -->
-                <div id="sec03-1-swiper" class="swiper sec03-1-swiper">
+                <div id="sec03-1-swiper" class="swiper sec03-1-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -179,7 +179,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-03__images">
                 <!-- Swiper -->
-                <div id="sec03-2-swiper" class="swiper sec03-2-swiper">
+                <div id="sec03-2-swiper" class="swiper sec03-2-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -224,7 +224,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-03__images">
                 <!-- Swiper -->
-                <div id="sec03-2-swiper" class="swiper sec03-2-swiper">
+                <div id="sec03-2-swiper" class="swiper sec03-2-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -264,7 +264,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
             </div>
           </div>
-          <div class="sec-03__bottom-contents">
+          <div class="sec-03__bottom-contents js-fadeIn">
             <div class="sec-03__bottom-content sec-03__bottom-content--top">
               <p class="sec-03__bottom-content-text">
                 裾に向かって美しく広がる<br>フレアラインで美脚効果
@@ -308,7 +308,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-04__images">
                 <!-- Swiper -->
-                <div id="sec04-1-swiper" class="swiper sec04-1-swiper">
+                <div id="sec04-1-swiper" class="swiper sec04-1-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -353,7 +353,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-04__images">
                 <!-- Swiper -->
-                <div id="sec04-2-swiper" class="swiper sec04-2-swiper">
+                <div id="sec04-2-swiper" class="swiper sec04-2-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -398,7 +398,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-04__images">
                 <!-- Swiper -->
-                <div id="sec04-3-swiper" class="swiper sec04-3-swiper">
+                <div id="sec04-3-swiper" class="swiper sec04-3-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -443,7 +443,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-04__images">
                 <!-- Swiper -->
-                <div id="sec04-4-swiper" class="swiper sec04-4-swiper">
+                <div id="sec04-4-swiper" class="swiper sec04-4-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -505,7 +505,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04-2 fadeInZoom">
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04-2 fadeInZoom border-top-line">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_19.jpg" alt="バックヨーク部分は高め位置に切り替えを入れ">
         </a>
         <div id="hws" class="sec-05 border-top-line">
@@ -518,11 +518,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           <div class="sec-05__contents">
             <div class="sec-05__item js-fadeIn">
               <div class="sec-05__size-01">
-                <p class="common-box-text common-box-text--size">153cm<span>SIZE:0</span></p>
+                <p class="common-box-text common-box-text--size">159cm<span>SIZE:0</span></p>
               </div>
               <div class="sec-05__images">
                 <!-- Swiper -->
-                <div id="sec05-1-swiper" class="swiper sec05-1-swiper">
+                <div id="sec05-1-swiper" class="swiper sec05-1-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -563,11 +563,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
             <div class="sec-05__item js-fadeIn">
               <div class="sec-05__size-01">
-                <p class="common-box-text common-box-text--size">159cm<span>SIZE:0</span></p>
+                <p class="common-box-text common-box-text--size">165cm<span>SIZE:0</span></p>
               </div>
               <div class="sec-05__images">
                 <!-- Swiper -->
-                <div id="sec05-2-swiper" class="swiper sec05-2-swiper">
+                <div id="sec05-2-swiper" class="swiper sec05-2-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -612,7 +612,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-05__images">
                 <!-- Swiper -->
-                <div id="sec05-3-swiper" class="swiper sec05-3-swiper">
+                <div id="sec05-3-swiper" class="swiper sec05-3-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -657,7 +657,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
               </div>
               <div class="sec-05__images">
                 <!-- Swiper -->
-                <div id="sec05-4-swiper" class="swiper sec05-4-swiper">
+                <div id="sec05-4-swiper" class="swiper sec05-4-swiper main-slider">
                   <!-- 必要に応じたwrapper -->
                   <div class="swiper-wrapper">
                     <!-- スライド -->
@@ -736,12 +736,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 STRETCH FLARE DENIM
               </p>
               <div class="sec-06__images">
-              <!-- Swiper -->
-              <div id="sec06-sfd-swiper" class="swiper sec06-sfd-swiper">
-                <!-- 必要に応じたwrapper -->
-                <div class="swiper-wrapper">
-                  <!-- スライド -->
-                  <div class="swiper-slide">
+              <!-- CSS Belt Animation -->
+              <div class="belt sec06-sfd-belt">
+                <div class="belt__track">
+                  <!-- 1周目 -->
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-01.jpg" alt="STRETCH FLARE DENIM">
@@ -749,7 +748,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">159cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-02.jpg" alt="STRETCH FLARE DENIM">
@@ -757,7 +756,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">159cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-03.jpg" alt="STRETCH FLARE DENIM">
@@ -765,7 +764,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-04.jpg" alt="STRETCH FLARE DENIM">
@@ -773,7 +772,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">153cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-05.jpg" alt="STRETCH FLARE DENIM">
@@ -781,7 +780,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-06.jpg" alt="STRETCH FLARE DENIM">
@@ -789,7 +788,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">159cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-07.jpg" alt="STRETCH FLARE DENIM">
@@ -797,7 +796,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">162cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-08.jpg" alt="STRETCH FLARE DENIM">
@@ -805,7 +804,80 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">153cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-09.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">162cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <!-- 2周目（同じアイテムを複製） -->
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-01.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">159cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-02.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">159cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-03.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">162cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-04.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">153cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-05.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">162cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-06.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">159cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-07.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">162cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-08.jpg" alt="STRETCH FLARE DENIM">
+                      </a>
+                      <p class="sec-06-item__text">153cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_27-09.jpg" alt="STRETCH FLARE DENIM">
@@ -815,7 +887,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   </div>
                 </div>
               </div>
-              <!-- /Swiper -->
+              <!-- /CSS Belt Animation -->
               </div>
             </div>
             <div class="sec-06__content border-top-line">
@@ -823,12 +895,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 HIGH WAIST FLARE
               </p>
               <div class="sec-06__images">
-              <!-- Swiper -->
-              <div id="sec06-sfd-swiper" class="swiper sec06-hwf-swiper">
-                <!-- 必要に応じたwrapper -->
-                <div class="swiper-wrapper">
-                  <!-- スライド -->
-                  <div class="swiper-slide">
+              <!-- CSS Belt Animation -->
+              <div class="belt sec06-hwf-belt">
+                <div class="belt__track belt__track--reverse">
+                  <!-- 1周目 -->
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-01.jpg" alt="HIGH WAIST FLARE">
@@ -836,7 +907,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">150cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-02.jpg" alt="HIGH WAIST FLARE">
@@ -844,7 +915,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">162cm  SIZE:1</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-03.jpg" alt="HIGH WAIST FLARE">
@@ -852,7 +923,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">153cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-04.jpg" alt="HIGH WAIST FLARE">
@@ -860,7 +931,48 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                       <p class="sec-06-item__text">167cm  SIZE:0</p>
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-05.jpg" alt="HIGH WAIST FLARE">
+                      </a>
+                      <p class="sec-06-item__text">150cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <!-- 2周目（同じアイテムを複製） -->
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-01.jpg" alt="HIGH WAIST FLARE">
+                      </a>
+                      <p class="sec-06-item__text">150cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-02.jpg" alt="HIGH WAIST FLARE">
+                      </a>
+                      <p class="sec-06-item__text">162cm  SIZE:1</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-03.jpg" alt="HIGH WAIST FLARE">
+                      </a>
+                      <p class="sec-06-item__text">153cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
+                    <div class="sec-06-item">
+                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
+                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-04.jpg" alt="HIGH WAIST FLARE">
+                      </a>
+                      <p class="sec-06-item__text">167cm  SIZE:0</p>
+                    </div>
+                  </div>
+                  <div class="belt__item">
                     <div class="sec-06-item">
                       <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-06-item__image">
                         <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_28-05.jpg" alt="HIGH WAIST FLARE">
@@ -870,7 +982,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                   </div>
                 </div>
               </div>
-              <!-- /Swiper -->
+              <!-- /CSS Belt Animation -->
               </div>
             </div>
             <div class="sec-06__content border-top-line">
@@ -878,12 +990,11 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                 HIGH WAIST STRAIGHT
               </p>
               <div class="sec-06__images">
-                <!-- Swiper -->
-                <div id="sec06-sfd-swiper" class="swiper sec06-hws-swiper">
-                  <!-- 必要に応じたwrapper -->
-                  <div class="swiper-wrapper">
-                    <!-- スライド -->
-                    <div class="swiper-slide">
+                <!-- CSS Belt Animation -->
+                <div class="belt sec06-hws-belt">
+                  <div class="belt__track">
+                    <!-- 1周目 -->
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-01.jpg" alt="HIGH WAIST STRAIGHT">
@@ -891,7 +1002,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                         <p class="sec-06-item__text">162cm  SIZE:0</p>
                       </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-02.jpg" alt="HIGH WAIST STRAIGHT">
@@ -899,7 +1010,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                         <p class="sec-06-item__text">165cm  SIZE:1</p>
                       </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-03.jpg" alt="HIGH WAIST STRAIGHT">
@@ -907,7 +1018,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                         <p class="sec-06-item__text">159cm  SIZE:0</p>
                       </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-04.jpg" alt="HIGH WAIST STRAIGHT">
@@ -915,7 +1026,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                         <p class="sec-06-item__text">165cm  SIZE:0</p>
                       </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-05.jpg" alt="HIGH WAIST STRAIGHT">
@@ -923,7 +1034,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                         <p class="sec-06-item__text">165cm  SIZE:1</p>
                       </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-06.jpg" alt="HIGH WAIST STRAIGHT">
@@ -931,7 +1042,64 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                         <p class="sec-06-item__text">150cm  SIZE:0</p>
                       </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-07.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">162cm  SIZE:0</p>
+                      </div>
+                    </div>
+                    <!-- 2周目（同じアイテムを複製） -->
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-01.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">162cm  SIZE:0</p>
+                      </div>
+                    </div>
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-02.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">165cm  SIZE:1</p>
+                      </div>
+                    </div>
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-03.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">159cm  SIZE:0</p>
+                      </div>
+                    </div>
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-04.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">165cm  SIZE:0</p>
+                      </div>
+                    </div>
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-05.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">165cm  SIZE:1</p>
+                      </div>
+                    </div>
+                    <div class="belt__item">
+                      <div class="sec-06-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-06.jpg" alt="HIGH WAIST STRAIGHT">
+                        </a>
+                        <p class="sec-06-item__text">150cm  SIZE:0</p>
+                      </div>
+                    </div>
+                    <div class="belt__item">
                       <div class="sec-06-item">
                         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259284" class="sec-06-item__image">
                           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_29-07.jpg" alt="HIGH WAIST STRAIGHT">
@@ -941,7 +1109,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
                     </div>
                   </div>
                 </div>
-                <!-- /Swiper -->
+                <!-- /CSS Belt Animation -->
               </div>
             </div>
           </div>
@@ -1005,7 +1173,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/js/script.js"></script>
+<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/js/script.js?202508080549"></script>
 <!-- コンテンツ部分用JS読み込みここまで -->
 <%-- △編集可能領域△ --%>
 
