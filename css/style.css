@@ -280,6 +280,9 @@ select::-ms-expand {
 #SN250811denim .border-top-line {
   border-top: 1px solid #323232;
 }
+#SN250811denim .border-top-line--2 {
+  border-top: 2px solid #323232;
+}
 #SN250811denim .swiper {
   width: 100%;
   height: 100%;
@@ -526,7 +529,7 @@ select::-ms-expand {
       -ms-flex: 1;
           flex: 1;
   color: #323232;
-  margin-right: -10.5rem;
+  margin-right: -7.5vw;
   width: 62.4%;
   position: relative;
   z-index: 1;
@@ -534,6 +537,11 @@ select::-ms-expand {
           box-sizing: border-box;
   padding-left: 2.1rem;
   padding-top: 3.5rem;
+}
+@media screen and (min-width: 1400px) {
+  #SN250811denim .sec-01__middel-contents-text {
+    margin-right: -10.5rem;
+  }
 }
 #SN250811denim .sec-01__middel-text--top {
   font-size: 3.5rem;
@@ -1180,28 +1188,34 @@ select::-ms-expand {
     padding: 0;
   }
   #SN250811denim .lp-aside-right__item {
-    padding: calc(26 / 750 * 100vw) calc(15 / 750 * 100vw);
+    padding: calc(25 / 750 * 100vw) calc(15 / 750 * 100vw);
     width: 100%;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    gap: calc(6 / 750 * 100vw);
+    gap: calc(5 / 750 * 100vw);
   }
   #SN250811denim .lp-aside-right__item:not(:last-child) {
     border-right: 1px solid #323232;
   }
+  #SN250811denim .lp-aside-right__item:nth-child(2) {
+    gap: calc(10 / 750 * 100vw);
+  }
+  #SN250811denim .lp-aside-right__item:nth-child(3) {
+    gap: calc(8 / 750 * 100vw);
+  }
   #SN250811denim .lp-aside-right__item-text--image {
-    bottom: calc(-6 / 750 * 100vw);
+    bottom: calc(-7 / 750 * 100vw);
     max-width: calc(24 / 750 * 100vw);
   }
   #SN250811denim .lp-aside-right__item-immage {
     width: calc(67 / 750 * 100vw);
   }
   #SN250811denim .lp-aside-right__item-text {
-    font-size: calc(20 / 750 * 100vw);
+    font-size: calc(22 / 750 * 100vw);
     font-weight: 700;
-    padding-bottom: calc(19 / 750 * 100vw);
-    line-height: 1.5;
-    letter-spacing: 0.06em;
+    padding-bottom: calc(18 / 750 * 100vw);
+    line-height: 1.4;
+    letter-spacing: 0.04em;
   }
   #SN250811denim {
     width: 100%;
@@ -1259,6 +1273,7 @@ select::-ms-expand {
     width: calc(50 / 750 * 100vw);
     padding-left: calc(34 / 750 * 100vw);
     padding-top: calc(54 / 750 * 100vw);
+    margin-right: calc(-105 / 750 * 100vw);
   }
   #SN250811denim .sec-01__middel-text--top {
     font-size: calc(56 / 750 * 100vw);
@@ -1324,16 +1339,16 @@ select::-ms-expand {
     display: block;
   }
   #SN250811denim .sec-02__images-item-text {
-    letter-spacing: -0.03em;
+    letter-spacing: 0.05em;
   }
   #SN250811denim .sec-02__images-item--top .sec-02__images-item-text {
-    font-size: calc(24 / 750 * 100vw);
+    font-size: calc(22 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom {
-    gap: calc(40 / 750 * 100vw);
+    gap: calc(30 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item {
-    max-width: calc(290 / 750 * 100vw);
+    max-width: calc(300 / 750 * 100vw);
   }
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-image {
     margin-bottom: calc(36 / 750 * 100vw);
@@ -1345,9 +1360,8 @@ select::-ms-expand {
     display: block;
   }
   #SN250811denim .sec-02__images-item--bottom .sec-02__images-item-text {
-    font-size: calc(24 / 750 * 100vw);
-    line-height: 1.4;
-    line-height: 1.8;
+    font-size: calc(22 / 750 * 100vw);
+    line-height: 2;
     margin-top: calc(-6 / 750 * 100vw);
   }
   #SN250811denim .sec-03 {

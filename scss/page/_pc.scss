@@ -110,6 +110,9 @@
 	.border-top-line {
 		border-top: 1px solid $color-black;
 	}
+	.border-top-line--2 {
+		border-top: 2px solid $color-black;
+	}
 	// Swiperの基本スタイル
 	.swiper {
 			width: 100%;
@@ -341,13 +344,16 @@
   .sec-01__middel-contents-text {
     flex: 1;
     color: $color-black;
-    margin-right: rem(-105);
+    margin-right: calc(-105 * 100vw / 1400);
 		width: calc(468 / 750 * 100%);
 		position: relative;
 		z-index: 1;
 		box-sizing: border-box;
 		padding-left: rem(21);
     padding-top: rem(35);
+    @media screen and (min-width:1400px) {
+      margin-right: rem(-105); 
+    }
   }
   
   .sec-01__middel-text--top {

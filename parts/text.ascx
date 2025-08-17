@@ -29,7 +29,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <%-- ▽ 編集可能領域：コンテンツ ▽ --%>
 <!-- コンテンツ部分用CSS読み込みここから -->
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2025/0811/css/style.css?202508081342" />
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>page/feature/2025/0811/css/style.css?202508171240" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <!-- add fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -291,10 +291,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-03-2 border-top-line fadeInZoom">
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP252179" class="sec-03-2 border-top-line--2 fadeInZoom">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_12.jpg" >
         </a>
-        <div id="hwf" class="sec-04 border-top-line">
+        <div id="hwf" class="sec-04 border-top-line--2">
           <div class="sec-04__tile">
             <p class="common-title">
               high waist<br>
@@ -505,10 +505,10 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
             </div>
           </div>
         </div>
-        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04-2 fadeInZoom border-top-line">
+        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductDetail.aspx?shop=&pid=SWFP259273" class="sec-04-2 fadeInZoom border-top-line--2">
           <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/0811/img/image_19.jpg" alt="バックヨーク部分は高め位置に切り替えを入れ">
         </a>
-        <div id="hws" class="sec-05 border-top-line">
+        <div id="hws" class="sec-05 border-top-line--2">
           <div class="sec-05__tile">
             <p class="common-title">
               high waist<br>
